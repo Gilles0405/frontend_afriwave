@@ -1,0 +1,2038 @@
+{
+  "Metadata": {
+    "title": "AfriWave — La radio communautaire africaine",
+    "description": "Explorez les radios communautaires africaines, les actualités locales, les émissions et les contenus audio."
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "news": "Actualités",
+    "radios": "Les radios",
+    "shows": "Émissions",
+    "explore": "Explorer",
+    "search": "Rechercher",
+    "podcasts": "Podcasts",
+    "login": "Se connecter",
+    "loginShort": "Connexion",
+    "registerRadio": "Inscrire ma radio"
+  },
+  "Hero": {
+    "eyebrow": "Les voix de nos communautés",
+    "title": "L’Afrique raconte.",
+    "highlight": "Les communautés s’expriment.",
+    "description": "Retrouvez les radios communautaires, les actualités locales, les émissions et les voix qui font vivre les territoires africains.",
+    "searchPlaceholder": "Une radio, une émission, une actualité...",
+    "searchButton": "Rechercher",
+    "trustRadios": "Des radios de proximité",
+    "trustAudio": "Des voix et des émissions",
+    "visualTitle": "Au cœur des communautés",
+    "visualRadio": "Radios communautaires",
+    "visualRadioDescription": "Découvrez les voix près de chez vous",
+    "visualShows": "Émissions et programmes",
+    "visualShowsDescription": "Explorez les contenus qui vous inspirent",
+    "visualFooter": "L'information locale, les cultures et les communautés africaines"
+  },
+  "Categories": {
+    "eyebrow": "Explorez AfriWave",
+    "title": "Des voix, des cultures, des territoires",
+    "description": "Parcourez les thèmes qui font vivre les communautés et découvrez de nouveaux contenus.",
+    "explore": "Tout explorer",
+    "discover": "Découvrir",
+    "items": {
+      "culture": "Culture et traditions",
+      "news": "Actualités locales",
+      "music": "Musique et divertissement",
+      "community": "Vie communautaire"
+    }
+  },
+  "Featured": {
+    "eyebrow": "Découvrez la plateforme",
+    "title": "Les voix qui nous rapprochent",
+    "description": "Explorez les radios, suivez les actualités et découvrez les émissions des communautés africaines.",
+    "explore": "Explorer les actualités",
+    "radioLabel": "À découvrir",
+    "radioTitle": "Les radios communautaires",
+    "radioDescription": "Retrouvez les stations qui informent, rassemblent et donnent la parole aux communautés.",
+    "newsLabel": "Information",
+    "newsTitle": "L'actualité des territoires",
+    "newsDescription": "Découvrez les informations locales et les sujets qui comptent pour les communautés.",
+    "showsLabel": "À écouter",
+    "showsTitle": "Émissions et programmes",
+    "showsDescription": "Explorez les programmes, les débats, les rencontres et les histoires qui font entendre les voix locales.",
+    "learnMore": "En savoir plus"
+  },
+  "CTA": {
+    "eyebrow": "La parole aux communautés",
+    "title": "Chaque territoire a une histoire à raconter.",
+    "description": "Partez à la découverte des radios et des contenus qui font résonner les voix de l'Afrique.",
+    "button": "Découvrir les radios"
+  },
+  "Footer": {
+    "description": "La plateforme qui met en lumière les radios communautaires, les actualités locales et les voix de l'Afrique.",
+    "explore": "Explorer",
+    "platform": "La plateforme",
+    "discoverRadios": "Découvrir les radios",
+    "mottoTitle": "Notre vision",
+    "motto": "Connecter les communautés grâce à l'information, à la culture et aux voix locales.",
+    "rights": "Tous droits réservés.",
+    "signature": "Les voix de nos communautés.",
+    "accountTitle": "Votre espace AfriWave",
+    "accountDescription": "Accédez à votre compte ou rejoignez la plateforme pour faire entendre la voix de votre radio.",
+    "login": "Se connecter",
+    "registerRadio": "Inscrire ma radio"
+  },
+  "Auth": {
+    "brand": "AfriWave",
+    "welcome": "Bon retour parmi nous",
+    "loginDescription": "Connectez-vous pour retrouver votre espace AfriWave.",
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "nom@exemple.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Crée un mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "login": "Se connecter",
+    "loggingIn": "Connexion en cours...",
+    "noAccount": "Vous n'avez pas encore de compte ?",
+    "createAccount": "Créer un compte",
+    "or": "ou",
+    "backHome": "Retour à l'accueil",
+    "loginSuccess": "Connexion réussie.",
+    "genericError": "Une erreur est survenue. Veuillez réessayer.",
+    "networkError": "Impossible de contacter le serveur.",
+    "invalidCredentials": "Email ou mot de passe incorrect.",
+    "emailNotVerified": "Veuillez vérifier votre adresse email.",
+    "accountDisabled": "Votre compte n'est pas encore activé par un administrateur.",
+    "sessionSetupPending": "La connexion est établie, mais la gestion de session reste à configurer.",
+    "emailRequired": "L'adresse email est obligatoire.",
+    "emailInvalid": "Saisis une adresse email valide.",
+    "firstNameMin": "Le prénom doit contenir au moins 2 caractères.",
+    "firstNameMax": "Le prénom ne peut pas dépasser 100 caractères.",
+    "lastNameMin": "Le nom doit contenir au moins 2 caractères.",
+    "lastNameMax": "Le nom ne peut pas dépasser 100 caractères.",
+    "passwordMin": "Le mot de passe doit contenir au moins 8 caractères.",
+    "passwordLowercase": "Ajoute au moins une lettre minuscule.",
+    "passwordUppercase": "Ajoute au moins une lettre majuscule.",
+    "passwordNumber": "Ajoute au moins un chiffre.",
+    "passwordSpecial": "Ajoute au moins un caractère spécial.",
+    "confirmPasswordRequired": "Confirme ton mot de passe.",
+    "passwordMismatch": "Les mots de passe ne correspondent pas.",
+    "otpInvalid": "Le code doit contenir exactement 6 chiffres.",
+    "registerTitle": "Créer un compte",
+    "registerSubtitle": "Rejoins AfriWave pour gérer et partager tes contenus.",
+    "firstName": "Prénom",
+    "firstNamePlaceholder": "Ton prénom",
+    "lastName": "Nom",
+    "lastNamePlaceholder": "Ton nom",
+    "passwordRequirements": "8 caractères minimum, une majuscule, une minuscule, un chiffre et un caractère spécial.",
+    "confirmPassword": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "Répète ton mot de passe",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "registerButton": "Créer mon compte",
+    "registerLoading": "Création du compte...",
+    "alreadyHaveAccount": "Tu as déjà un compte ?",
+    "loginLink": "Se connecter",
+    "emailAlreadyExists": "Cette adresse e-mail est déjà utilisée.",
+    "resetPassword": "Réinitialiser mon mot de passe",
+    "loginEmailPlaceholder": "vous@exemple.com",
+    "loginPasswordPlaceholder": "Saisissez votre mot de passe",
+    "registerEmailPlaceholder": "nom@exemple.com",
+    "registerPasswordPlaceholder": "Crée un mot de passe"
+  },
+  "VerifyEmail": {
+    "title": "Vérifiez votre adresse e-mail",
+    "description": "Nous vous avons envoyé un code de vérification à 6 chiffres. Saisissez-le pour confirmer votre adresse.",
+    "emailLabel": "Adresse e-mail",
+    "codeLabel": "Code de vérification",
+    "codeHelp": "Saisissez les 6 chiffres reçus par e-mail.",
+    "submit": "Vérifier mon adresse",
+    "verifying": "Vérification en cours...",
+    "verified": "Adresse e-mail vérifiée avec succès ! Redirection vers la connexion...",
+    "verificationFailed": "La vérification a échoué. Réessayez.",
+    "invalidCode": "Veuillez vérifier les informations saisies.",
+    "spamHint": "Vous ne trouvez pas le message ? Vérifiez votre dossier spam.",
+    "emailRequired": "L'adresse e-mail est obligatoire.",
+    "emailInvalid": "Veuillez saisir une adresse e-mail valide.",
+    "otpInvalid": "Le code doit contenir exactement 6 chiffres.",
+    "resendCode": "Renvoyer le code"
+  },
+  "ForgotPassword": {
+    "title": "Mot de passe oublié ?",
+    "description": "Saisissez votre adresse e-mail pour recevoir un code de récupération.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "submit": "Envoyer le code",
+    "loading": "Envoi en cours...",
+    "backToLogin": "Retour à la connexion",
+    "successTitle": "Vérifiez votre boîte mail",
+    "successDescription": "Si cette adresse est associée à un compte, vous recevrez un code de récupération.",
+    "successMessage": "Consultez votre boîte mail et vos courriers indésirables. Le code est valable pendant 10 minutes.",
+    "continue": "Saisir le code",
+    "useAnotherEmail": "Utiliser une autre adresse",
+    "genericError": "Une erreur est survenue. Réessayez plus tard."
+  },
+  "ResetPassword": {
+    "title": "Réinitialiser le mot de passe",
+    "description": "Saisissez votre adresse e-mail, le code reçu et votre nouveau mot de passe.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "otpLabel": "Code de récupération",
+    "otpHint": "Entrez le code à 6 chiffres reçu par e-mail.",
+    "passwordLabel": "Nouveau mot de passe",
+    "passwordPlaceholder": "Saisissez un nouveau mot de passe",
+    "passwordHint": "8 caractères minimum, avec une majuscule, une minuscule, un chiffre et un caractère spécial.",
+    "confirmPasswordLabel": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "Répétez le nouveau mot de passe",
+    "submit": "Réinitialiser le mot de passe",
+    "loading": "Réinitialisation en cours...",
+    "backToLogin": "Retour à la connexion",
+    "passwordMismatch": "Les deux mots de passe ne correspondent pas.",
+    "genericError": "Une erreur est survenue. Réessayez plus tard.",
+    "successTitle": "Mot de passe modifié",
+    "successDescription": "Votre mot de passe a été mis à jour.",
+    "successMessage": "Vous pouvez maintenant vous connecter avec votre nouveau mot de passe.",
+    "goToLogin": "Se connecter",
+    "noCode": "Vous n'avez pas reçu de code ?",
+    "requestAnother": "Faire une nouvelle demande"
+  },
+  "RadioRequest": {
+    "eyebrow": "Rejoignez AfriWave",
+    "title": "Référencer votre radio",
+    "description": "Présentez votre station et permettez aux auditeurs de découvrir vos émissions, vos actualités...",
+    "sections": {
+      "identity": "Informations sur la radio",
+      "identityDescription": "Présentez votre station et sa localisation.",
+      "contact": "Coordonnées",
+      "digital": "Présence numérique",
+      "digitalDescription": "Ajoutez vos réseaux sociaux et le lien de diffusion en direct si disponibles."
+    },
+    "fields": {
+      "name": "Nom de la radio",
+      "description": "Description",
+      "frequency": "Fréquence",
+      "city": "Ville",
+      "country": "Pays",
+      "address": "Adresse",
+      "email": "E-mail de contact",
+      "phone": "Téléphone",
+      "website": "Site web"
+    },
+    "placeholders": {
+      "name": "Ex. : Radio Lumière",
+      "description": "Présentez votre radio, ses émissions et sa mission...",
+      "frequency": "Ex. : 98.5 FM",
+      "city": "Ex. : Douala",
+      "address": "Quartier, rue ou point de repère",
+      "email": "contact@votreradio.cm"
+    },
+    "reviewNotice": "Votre demande sera examinée par l’équipe AfriWave. Elle ne signifie pas que votre radio est déjà publiée sur la plateforme.",
+    "submit": "Envoyer ma demande",
+    "submitting": "Envoi en cours...",
+    "errors": {
+      "required": "Veuillez renseigner tous les champs obligatoires.",
+      "submit": "Une erreur est survenue lors de l’envoi de votre demande."
+    },
+    "success": {
+      "title": "Demande envoyée !",
+      "description": "Votre demande de référencement a bien été transmise à l’équipe AfriWave.",
+      "notice": "Votre demande est en attente de validation. Vous serez informé lorsque son statut évoluera.",
+      "home": "Retour à l’accueil"
+    }
+  },
+  "AdminHeader": {
+    "title": "Espace Super Admin",
+    "subtitle": "Administration d'AfriWave",
+    "role": "Super Administrateur",
+    "light": "Thème clair",
+    "dark": "Thème sombre",
+    "system": "Thème système",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "loggingOut": "Déconnexion en cours...",
+    "closeMenu": "Fermer le menu",
+    "radioTitle": "Espace radio",
+    "radioSubtitle": "Gestion de votre station",
+    "radioRole": "Équipe radio"
+  },
+  "AdminSidebar": {
+    "subtitle": "Administration de la plateforme",
+    "navigationLabel": "Navigation d'administration",
+    "mainMenu": "Menu principal",
+    "overview": "Vue d'ensemble",
+    "radioRequests": "Demandes de radios",
+    "requests": "Demandes de radios",
+    "radios": "Radios",
+    "users": "Utilisateurs",
+    "settings": "Paramètres",
+    "brand": "AfriWave Admin",
+    "description": "Gestion de la plateforme",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+   "AdminDashboard": {
+    "analyticsError": "Impossible de charger les statistiques du tableau de bord.",
+    "retry": "Réessayer",
+    "loadingStats": "Chargement des statistiques...",
+    "analyticsDescription": "Statistiques globales de la plateforme.",
+     "eyebrow": "Administration",
+  "title": "Tableau de bord administrateur",
+  "description": "Gérez les radios communautaires, suivez les contenus publiés et consultez les statistiques globales de la plateforme.",
+  "reviewRequests": "Consulter les demandes de révision",
+  "statistics": "Statistiques de la plateforme",
+    "analytics": {
+      "radios": "Radios",
+      "content": "Contenus",
+      "published": "Contenus publiés",
+      "pendingReview": "En attente de révision",
+      "drafts": "Brouillons",
+      "archived": "Contenus archivés"
+    },
+    "overview": {
+      "title": "Vue d’ensemble",
+      "description": "Radios et contenus de la plateforme.",
+      "refresh": "Actualiser les statistiques"
+    },
+    "contentBreakdown": {
+      "title": "Répartition des contenus",
+      "description": "Détail des articles, émissions et podcasts.",
+      "articles": "Articles",
+      "shows": "Émissions",
+      "podcasts": "Podcasts",
+      "total": "Total",
+      "published": "Publiés",
+      "drafts": "Brouillons",
+      "pendingReview": "En révision",
+      "archived": "Archivés",
+      "empty": "Aucune donnée disponible."
+    },
+    "myDataCheck": {
+      "title": "MyDataCheck",
+      "description": "Vérifications effectuées et consommation du service UncovAI.",
+      "totalVerifications": "Vérifications totales",
+      "totalVerificationsDescription": "Toutes les vérifications MyDataCheck.",
+      "whatsappVerifications": "Vérifications WhatsApp",
+      "whatsappVerificationsDescription": "Textes et images via WhatsApp.",
+      "imageVerifications": "Vérifications d’images",
+      "imageVerificationsDescription": "Images soumises à vérification.",
+      "lastSevenDays": "7 derniers jours",
+      "lastSevenDaysDescription": "Activité récente enregistrée.",
+      "channels": "Canaux de vérification",
+      "whatsappText": "Textes via WhatsApp",
+      "whatsappImage": "Images via WhatsApp",
+      "otherText": "Textes hors WhatsApp",
+      "otherImage": "Images hors WhatsApp",
+      "currentMonth": "Mois en cours",
+      "currentMonthDescription": "Vérifications enregistrées",
+      "whatsapp": "WhatsApp",
+      "outsideWhatsapp": "Hors WhatsApp"
+    },
+    "uncovAI": {
+      "title": "Service UncovAI",
+      "description": "Solde du compte, coûts cumulés et volume de requêtes API.",
+      "unavailable": "Service UncovAI indisponible",
+      "balance": "Solde disponible",
+      "balanceDescription": "Crédit actuellement disponible.",
+      "totalSpent": "Montant consommé",
+      "totalSpentDescription": "Dépenses cumulées du compte.",
+      "totalToppedUp": "Total rechargé",
+      "totalToppedUpDescription": "Crédits ajoutés au compte.",
+      "totalRequests": "Requêtes API",
+      "totalRequestsDescription": "Nombre total de requêtes retournées.",
+      "pricing": "Tarification par endpoint",
+      "pricingDescription": "Coût unitaire communiqué par l’API UncovAI.",
+      "endpoint": "Endpoint",
+      "costPerRequest": "Coût par requête",
+      "noPricing": "Aucune tarification disponible.",
+      "usageByEndpoint": "Consommation par endpoint",
+      "requests": "Requêtes",
+      "cost": "Coût",
+      "lastUsed": "Dernière utilisation",
+      "noUsage": "Aucune consommation détaillée disponible."
+    },
+    "monthlyHistory": {
+      "title": "Historique mensuel",
+      "description": "Vérifications MyDataCheck et coûts des requêtes vidéo UncovAI.",
+      "monthlyUsage": "Consommation mensuelle",
+      "month": "Mois",
+      "verifications": "Vérifications",
+      "videoRequests": "Requêtes vidéo",
+      "videoCost": "Coût vidéo",
+      "empty": "Aucun historique mensuel disponible."
+    },
+    "payments": {
+      "title": "Derniers rechargements",
+      "description": "Paiements retournés par le service UncovAI.",
+      "date": "Date",
+      "amount": "Montant",
+      "status": "Statut",
+      "completed": "Terminé",
+      "pending": "En attente",
+      "failed": "Échoué",
+      "empty": "Aucun paiement disponible."
+    },
+    "common": {
+      "loading": "Chargement...",
+      "refresh": "Actualiser",
+      "retry": "Réessayer",
+      "unknown": "Non disponible",
+      "lastUpdated": "Statistiques actualisées le {date}"
+    }
+  },
+  "RadioRequestTable": {
+    "title": "Demandes de création de radios",
+    "description": "{count} demande(s) au total",
+    "searchPlaceholder": "Rechercher une radio…",
+    "refresh": "Actualiser",
+    "retry": "Réessayer",
+    "loading": "Chargement des demandes…",
+    "loadError": "Impossible de récupérer les demandes. Vérifie la connexion à l'API.",
+    "empty": "Aucune demande trouvée",
+    "emptyDescription": "Les demandes apparaîtront ici dès leur réception.",
+    "columns": {
+      "radio": "Radio",
+      "location": "Localisation",
+      "date": "Date de demande",
+      "status": "Statut",
+      "action": "Action"
+    },
+    "status": {
+      "PENDING": "En attente",
+      "APPROVED": "Approuvée",
+      "REJECTED": "Rejetée"
+    },
+    "view": "Détails",
+    "viewRequest": "Consulter la demande de {name}",
+    "showing": "{count} affichée(s) sur {total}",
+    "viewAll": "Toutes les demandes"
+  },
+  "RadioRequests": {
+    "title": "Demandes de radios",
+    "description": "{count} demande(s) au total",
+    "listTitle": "Toutes les demandes",
+    "listDescription": "Consultez et gérez les demandes d'inscription des radios.",
+    "searchPlaceholder": "Rechercher par nom, ville ou e-mail...",
+    "filterStatus": "Filtrer par statut",
+    "allStatuses": "Tous les statuts",
+    "refresh": "Actualiser",
+    "retry": "Réessayer",
+    "loadError": "Impossible de charger les demandes. Veuillez réessayer.",
+    "empty": "Aucune demande trouvée",
+    "emptyDescription": "Les demandes correspondant à vos critères apparaîtront ici.",
+    "view": "Détails",
+    "showing": "{count} demande(s) affichée(s) sur {total}",
+    "page": "Page {page} sur {totalPages}",
+    "previousPage": "Page précédente",
+    "nextPage": "Page suivante",
+    "columns": {
+      "radio": "Radio",
+      "location": "Localisation",
+      "email": "E-mail",
+      "date": "Date de demande",
+      "status": "Statut",
+      "action": "Actions"
+    },
+    "status": {
+      "PENDING": "En attente",
+      "APPROVED": "Approuvée",
+      "REJECTED": "Rejetée"
+    }
+  },
+  "RadioRequestDetail": {
+    "back": "Retour aux demandes",
+    "requestId": "Demande n° {id}",
+    "refresh": "Actualiser",
+    "retry": "Réessayer",
+    "loadError": "Impossible de charger cette demande.",
+    "notFound": "Cette demande est introuvable.",
+    "radioInformation": "Informations de la radio",
+    "radioInformationDescription": "Informations générales fournies lors de la demande.",
+    "contactInformation": "Coordonnées",
+    "contactInformationDescription": "Moyens de contact de la radio.",
+    "onlinePresence": "Présence en ligne",
+    "onlinePresenceDescription": "Site web, réseaux sociaux et flux audio.",
+    "requestSummary": "Résumé de la demande",
+    "adminActions": "Actions administratives",
+    "adminActionsDescription": "Cette demande est en attente de décision.",
+    "approve": "Approuver la demande",
+    "reject": "Rejeter la demande",
+    "approveConfirmationTitle": "Approuver cette radio ?",
+    "approveConfirmationDescription": "Voulez-vous approuver la demande de {name} ?",
+    "rejectConfirmationTitle": "Rejeter cette radio ?",
+    "rejectConfirmationDescription": "Indiquez le motif du rejet de la demande de {name}.",
+    "rejectionReason": "Motif du rejet",
+    "rejectionReasonPlaceholder": "Expliquez pourquoi cette demande est rejetée...",
+    "reasonRequired": "Le motif du rejet est obligatoire.",
+    "confirmApprove": "Confirmer l'approbation",
+    "confirmReject": "Confirmer le rejet",
+    "cancel": "Annuler",
+    "approveError": "L'approbation a échoué.",
+    "rejectError": "Le rejet a échoué.",
+    "approvedNotice": "Cette demande a été approuvée.",
+    "rejectedNotice": "Cette demande a été rejetée.",
+    "status": {
+      "PENDING": "En attente",
+      "APPROVED": "Approuvée",
+      "REJECTED": "Rejetée"
+    },
+    "fields": {
+      "name": "Nom de la radio",
+      "frequency": "Fréquence",
+      "city": "Ville",
+      "country": "Pays",
+      "address": "Adresse",
+      "description": "Description",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "website": "Site web",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "streamUrl": "URL du flux radio",
+      "status": "Statut",
+      "createdAt": "Date de création",
+      "updatedAt": "Dernière mise à jour"
+    }
+  },
+  "RadioCard": {
+    "discoverRadio": "Découvrir {name}",
+    "imageAlt": "Image de {name}",
+    "defaultDescription": "Découvrez cette station de radio sur AfriWave.",
+    "discover": "Découvrir la radio"
+  },
+  "RadioList": {
+    "eyebrow": "L’univers radio africain",
+    "title": "Explorez nos radios",
+    "description": "Retrouvez vos stations préférées et découvrez de nouvelles voix à travers l’Afrique.",
+    "stationCount": "{count, plural, =0 {Aucune station} =1 {1 station} other {# stations}}",
+    "searchPlaceholder": "Nom, ville, pays ou fréquence...",
+    "searchLabel": "Rechercher une radio",
+    "loading": "Chargement des radios...",
+    "retry": "Réessayer",
+    "errors": {
+      "title": "Une erreur est survenue",
+      "loadFailed": "Impossible de charger les radios."
+    },
+    "empty": {
+      "title": "Aucune radio trouvée",
+      "description": "Aucune station ne correspond à votre recherche. Essayez d’autres termes.",
+      "clearSearch": "Effacer la recherche"
+    },
+    "pagination": {
+      "label": "Pagination des radios",
+      "page": "Page {page} sur {total}",
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "AdminUsers": {
+    "title": "Gestion des utilisateurs",
+    "description": "Consultez et recherchez les comptes de la plateforme AfriWave.",
+    "refresh": "Actualiser",
+    "retry": "Réessayer",
+    "anonymous": "Utilisateur sans nom",
+    "searchLabel": "Rechercher un utilisateur",
+    "searchPlaceholder": "Nom, prénom ou e-mail...",
+    "filters": {
+      "role": "Rôle global",
+      "allRoles": "Tous les rôles",
+      "status": "Statut du compte",
+      "allStatuses": "Tous les statuts",
+      "email": "Vérification e-mail",
+      "allVerification": "Tous les états"
+    },
+    "roles": {
+      "user": "Utilisateur",
+      "superAdmin": "Super administrateur"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "verification": {
+      "verified": "Vérifié",
+      "unverified": "Non vérifié"
+    },
+    "table": {
+      "title": "Tous les utilisateurs",
+      "resultCount": "{count, plural, =0 {Aucun utilisateur} =1 {1 utilisateur} other {# utilisateurs}}",
+      "user": "Utilisateur",
+      "role": "Rôle",
+      "status": "Statut",
+      "email": "E-mail",
+      "registered": "Inscription"
+    },
+    "empty": {
+      "title": "Aucun utilisateur trouvé",
+      "description": "Essayez de modifier vos critères de recherche."
+    },
+    "errors": {
+      "title": "Une erreur est survenue",
+      "loadFailed": "Impossible de charger les utilisateurs."
+    },
+    "pagination": {
+      "page": "Page {page} sur {total}",
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "ProfileSettings": {
+    "title": "Paramètres du profil",
+    "description": "Gérez vos informations personnelles et votre photo de profil.",
+    "personalInfo": "Informations personnelles",
+    "personalInfoDescription": "Ces informations sont associées à votre compte AfriWave.",
+    "avatarAlt": "Photo de profil",
+    "avatarUrl": "URL de la photo",
+    "avatarHint": "Saisissez une URL d'image accessible publiquement.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "verified": "E-mail vérifié",
+    "unverified": "E-mail non vérifié",
+    "accountStatus": "État du compte",
+    "accountStatusDescription": "Statut actuel de votre compte.",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "loading": "Chargement du profil...",
+    "save": "Enregistrer les modifications",
+    "saving": "Enregistrement...",
+    "saved": "Votre profil a été mis à jour.",
+    "errors": {
+      "load": "Impossible de charger le profil.",
+      "save": "Impossible d'enregistrer les modifications."
+    }
+  },
+  "RadioSidebar": {
+    "subtitle": "Espace de gestion de votre radio",
+    "navigationLabel": "Navigation de la radio",
+    "mainMenu": "Menu principal",
+    "overview": "Vue d’ensemble",
+    "articles": "Articles",
+    "categories": "catégories",
+    "medias": "medias",
+    "shows": "Émissions",
+    "podcasts": "Podcasts",
+    "team": "Équipe et collaborateurs",
+    "settings": "Paramètres de la radio",
+    "brand": "AfriWave",
+    "description": "Votre radio, votre espace de publication.",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "RadioDashboard": {
+    "welcome": "Bienvenue dans votre espace radio",
+    "description": "Suivez vos contenus et gérez les publications de votre station depuis un seul espace.",
+    "statisticsTitle": "Statistiques de votre radio",
+    "statisticsDescription": "Vue d’ensemble de vos contenus et de leur état de publication.",
+    "contentTitle": "Gestion des contenus",
+    "contentDescription": "Retrouvez vos articles, émissions et podcasts.",
+    "stationTitle": "Votre station",
+    "stationDescription": "Les informations de votre radio sont affichées dans cet espace.",
+    "noRadioTitle": "Aucune radio active",
+    "noRadioDescription": "Vous n’avez actuellement accès à aucune radio active. Contactez l’administrateur de la plateforme.",
+    "analyticsError": "Impossible de charger les statistiques de cette radio.",
+    "retry": "Réessayer",
+    "loadingStats": "Chargement des statistiques…",
+    "analyticsDescription": "Données de votre radio",
+    "typePublished": "{count} publié(s)",
+    "analytics": {
+      "content": "Contenus au total",
+      "published": "Contenus publiés",
+      "drafts": "Brouillons",
+      "pendingReview": "En attente de validation",
+      "archived": "Contenus archivés"
+    },
+    "types": {
+      "articles": "Articles",
+      "shows": "Émissions",
+      "podcasts": "Podcasts"
+    }
+  },
+  "RadioArticles": {
+    "title": "Articles",
+    "subtitle": "Gérez les contenus éditoriaux de votre radio.",
+    "refresh": "Actualiser",
+    "create": "Nouvel article",
+    "totalArticles": "Total des articles",
+    "currentPage": "Page actuelle",
+    "displayedArticles": "Articles affichés",
+    "searchPlaceholder": "Rechercher un article...",
+    "filterStatus": "Filtrer par statut",
+    "allStatuses": "Tous les statuts",
+    "statuses": {
+      "DRAFT": "Brouillon",
+      "PENDING_REVIEW": "En relecture",
+      "PUBLISHED": "Publié",
+      "ARCHIVED": "Archivé"
+    },
+    "listTitle": "Tous les articles",
+    "pageSize": "{count} articles par page maximum",
+    "articleColumn": "Article",
+    "statusColumn": "Statut",
+    "updatedColumn": "Dernière modification",
+    "actionsColumn": "Actions",
+    "view": "Consulter",
+    "emptyTitle": "Aucun article trouvé",
+    "emptyDescription": "Créez votre premier article ou modifiez vos filtres de recherche.",
+    "loadError": "Impossible de charger les articles.",
+    "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter.",
+    "accessDenied": "Vous n'avez pas accès aux articles de cette radio.",
+    "retry": "Réessayer",
+    "paginationInfo": "{count} article(s) affiché(s) — {total} au total",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "ArticleEditor": {
+    "title": "Rédiger un article",
+    "description": "Rédige un article pour les lecteurs de ta radio.",
+    "sections": {
+      "content": "Contenu de l’article",
+      "seo": "Référencement naturel (SEO)",
+      "image": "Image de couverture"
+    },
+    "fields": {
+      "title": "Titre",
+      "excerpt": "Résumé",
+      "content": "Texte de l’article",
+      "category": "Catégorie",
+      "seoTitle": "Titre SEO",
+      "seoDescription": "Description SEO",
+      "image": "Choisir une image"
+    },
+    "placeholders": {
+      "title": "Ex. : Les actualités de notre région",
+      "excerpt": "Présente brièvement les informations essentielles.",
+      "content": "Rédige ici le contenu complet de ton article...",
+      "category": "Sélectionner une catégorie",
+      "seoTitle": "Titre affiché dans les moteurs de recherche",
+      "seoDescription": "Résumé destiné aux résultats de recherche"
+    },
+    "category": {
+      "loading": "Chargement des catégories...",
+      "none": "Sans catégorie",
+      "hint": "Choisis une catégorie active de ta radio.",
+      "empty": "Aucune catégorie active disponible.",
+      "emptyHelp": "Tu peux continuer sans catégorie ou en créer une dans la gestion des catégories.",
+      "retry": "Réessayer",
+      "error": "Impossible de charger les catégories. Vérifie ta connexion et tes permissions."
+    },
+    "image": {
+      "description": "Formats acceptés : JPG, PNG et WebP. Taille maximale : 5 Mo.",
+      "choose": "Choisir une image",
+      "upload": "Téléverser l’image",
+      "uploading": "Téléversement...",
+      "uploaded": "Image de couverture téléversée avec succès.",
+      "remove": "Supprimer l’image",
+      "preview": "Aperçu de l’image de couverture",
+      "invalidType": "Format non accepté. Utilise une image JPG, PNG ou WebP.",
+      "tooLarge": "L’image ne doit pas dépasser 5 Mo.",
+      "selectFirst": "Sélectionne d’abord une image de couverture.",
+      "missingUrl": "L’API n’a pas retourné l’URL de l’image.",
+      "uploadError": "Impossible de téléverser l’image.",
+      "pendingUpload": "Téléverse l’image sélectionnée avant d’enregistrer."
+    },
+    "seoDescription": "Optimise la présentation de ton article dans les moteurs de recherche.",
+    "characters": "caractères",
+    "validation": {
+      "title": "Le titre doit contenir au moins 5 caractères.",
+      "content": "Le contenu doit contenir au moins 20 caractères.",
+      "category": "L’identifiant de catégorie doit être un entier positif."
+    },
+    "errors": {
+      "generic": "Une erreur inattendue est survenue. Réessaie.",
+      "save": "Impossible d’enregistrer l’article.",
+      "publish": "Impossible de publier cet article."
+    },
+    "success": {
+      "draft": "Brouillon enregistré avec succès.",
+      "review": "Article enregistré et soumis pour révision avec succès.",
+      "published": "Article publié avec succès."
+    },
+    "actions": {
+      "clear": "Effacer",
+      "save": "Enregistrer le brouillon",
+      "saving": "Enregistrement...",
+      "submitReview": "Soumettre pour révision",
+      "submitting": "Envoi en cours...",
+      "publish": "Publier",
+      "publishing": "Publication...",
+      "confirmPublish": "Veux-tu vraiment publier cet article ?"
+    }
+  },
+  "ArticleDetails": {
+    "actions": {
+      "back": "Retour",
+      "publish": "Publier",
+      "publishing": "Publication...",
+      "publishSuccess": "Article publié avec succès.",
+      "archive": "Archiver",
+      "archiving": "Archivage...",
+      "archiveSuccess": "Article archivé avec succès.",
+      "confirmArchive": "Confirmer l'archivage",
+      "delete": "Supprimer",
+      "deleting": "Suppression...",
+      "deleteSuccess": "Article supprimé avec succès.",
+      "confirmDelete": "Confirmer la suppression",
+      "cancel": "Annuler",
+      "retry": "Réessayer",
+    "edit": "Modifier",
+    "update": "Mettre à jour",
+    "updating": "Mise à jour...",
+    "updateSuccess": "Article mis à jour avec succès.",
+    "uploadImage": "Téléverser l’image",
+    "uploadingImage": "Téléversement...",
+    "imageUploadSuccess": "Image de couverture téléversée avec succès.",
+    "removeImage": "Retirer l’image"
+    },
+    "errors": {
+      "load": "Impossible de charger l'article.",
+      "publish": "Impossible de publier cet article.",
+      "archive": "Impossible d'archiver cet article.",
+      "delete": "Impossible de supprimer cet article.",
+      "notFound": "Article introuvable.",
+       "update": "Impossible de mettre à jour cet article.",
+    "categories": "Impossible de charger les catégories.",
+    "imageUpload": "Impossible de téléverser l’image.",
+    "imageUrl": "L’API n’a pas retourné l’URL de l’image."
+    },
+    "statuses": {
+      "DRAFT": "Brouillon",
+      "PENDING_REVIEW": "En attente de validation",
+      "PUBLISHED": "Publié",
+      "ARCHIVED": "Archivé"
+    },
+    "fields": {
+      "category": "Catégorie",
+      "articleId": "Identifiant de l'article",
+      "createdAt": "Créé le",
+      "publishedAt": "Publié le",
+      "seoTitle": "Titre SEO",
+      "seoDescription": "Description SEO",
+       "title": "Titre",
+    "excerpt": "Résumé",
+    "content": "Contenu",
+    "characters": "caractères",
+    "loadingCategories": "Chargement des catégories...",
+    "noCategory": "Sans catégorie",
+    "featuredImage": "Image de couverture",
+    "chooseImage": "Choisir une image",
+    "imageHelp": "Formats acceptés : JPG, PNG et WebP. Taille maximale : 5 Mo.",
+    "seoHelp": "Optimise le titre et la description affichés dans les moteurs de recherche."
+    },
+    "sections": {
+      "content": "Contenu de l'article",
+      "seo": "Référencement naturel (SEO)"
+    },
+    "archiveDialog": {
+      "title": "Archiver cet article ?",
+      "description": "Voulez-vous vraiment archiver « {title} » ?"
+    },
+    "deleteDialog": {
+      "title": "Supprimer cet article ?",
+      "description": "Voulez-vous vraiment supprimer « {title} » ? Cette action peut être irréversible."
+    },
+     "title": "Le titre doit contenir au moins 5 caractères.",
+    "content": "Le contenu doit contenir au moins 20 caractères.",
+    "category": "L’identifiant de la catégorie doit être un entier positif.",
+    "imageFormat": "Format non accepté. Utilise une image JPG, PNG ou WebP.",
+    "imageSize": "L’image ne doit pas dépasser 5 Mo.",
+    "selectImage": "Sélectionne d’abord une image de couverture.",
+    "imageNotUploaded": "Téléverse l’image sélectionnée avant d’enregistrer.",
+    "editDialog": {
+    "title": "Modifier l’article",
+    "description": "Modifie le contenu, la catégorie, l’image et les informations SEO."
+  }
+  },
+   "RadioCategories": {
+    "title": "Catégories",
+    "description": "Organisez les articles de votre radio par catégories.",
+    "search": "Rechercher une catégorie...",
+    "loading": "Chargement des catégories...",
+    "stats": {
+      "total": "Total des catégories",
+      "active": "Catégories actives"
+    },
+    "actions": {
+      "create": "Nouvelle catégorie",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "refresh": "Actualiser",
+      "cancel": "Annuler",
+      "save": "Enregistrer les modifications",
+      "saving": "Enregistrement...",
+      "deleting": "Suppression..."
+    },
+    "fields": {
+      "name": "Nom",
+      "slug": "Slug",
+      "description": "Description",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "status": {
+      "ACTIVE": "Active",
+      "INACTIVE": "Inactive"
+    },
+    "filters": {
+      "status": "Filtrer par statut",
+      "all": "Tous les statuts"
+    },
+    "empty": {
+      "title": "Aucune catégorie trouvée",
+      "description": "Créez votre première catégorie pour organiser vos articles.",
+      "search": "Aucune catégorie ne correspond à votre recherche."
+    },
+    "dialog": {
+      "createTitle": "Créer une catégorie",
+      "createDescription": "Ajoutez une catégorie à votre espace radio.",
+      "editTitle": "Modifier la catégorie",
+      "editDescription": "Modifiez les informations de cette catégorie."
+    },
+    "placeholders": {
+      "name": "Ex. : Actualités locales",
+      "description": "Décrivez brièvement cette catégorie..."
+    },
+    "validation": {
+      "nameMin": "Le nom doit contenir au moins 2 caractères.",
+      "nameMax": "Le nom ne doit pas dépasser 100 caractères.",
+      "descriptionMax": "La description ne doit pas dépasser 1 000 caractères."
+    },
+    "messages": {
+      "created": "Catégorie créée avec succès.",
+      "updated": "Catégorie mise à jour avec succès.",
+      "deleted": "Catégorie supprimée avec succès."
+    },
+    "errors": {
+      "load": "Impossible de charger les catégories.",
+      "save": "Impossible d'enregistrer la catégorie. Vérifiez vos données et vos permissions.",
+      "delete": "Impossible de supprimer cette catégorie. Elle contient peut-être encore des articles."
+    },
+    "deleteDialog": {
+      "title": "Supprimer cette catégorie ?",
+      "description": "Voulez-vous vraiment supprimer la catégorie « {name} » ? Cette action est irréversible."
+    }
+  },
+  "RadioShows": {
+    "title": "Émissions",
+    "description": "Gérez les programmes et les horaires de diffusion de votre radio.",
+    "search": "Rechercher une émission ou un animateur...",
+    "loading": "Chargement des émissions...",
+    "stats": {
+      "total": "Total des émissions",
+      "totalHint": "Émissions correspondant aux filtres",
+      "published": "Émissions publiées",
+      "publishedHint": "Publiées sur cette page",
+      "drafts": "Brouillons",
+      "draftsHint": "Brouillons sur cette page"
+    },
+    "list": {
+      "title": "Toutes les émissions",
+      "description": "Consultez et gérez les émissions de votre espace radio."
+    },
+    "actions": {
+      "create": "Nouvelle émission",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "publish": "Publier",
+      "archive": "Archiver",
+      "refresh": "Actualiser",
+      "retry": "Réessayer",
+      "cancel": "Annuler",
+      "save": "Enregistrer les modifications",
+      "saving": "Enregistrement...",
+      "uploadImage": "Importer une image",
+      "removeImage": "Retirer l'image"
+    },
+    "fields": {
+      "show": "Émission",
+      "title": "Titre",
+      "host": "Animateur",
+      "description": "Description",
+      "coverImage": "Image de couverture",
+      "coverPreview": "Aperçu de la couverture",
+      "days": "Jours de diffusion",
+      "startTime": "Heure de début",
+      "endTime": "Heure de fin",
+      "timezone": "Fuseau horaire",
+      "schedule": "Horaires",
+      "status": "Statut",
+      "actions": "Actions",
+      "noHost": "Animateur non renseigné",
+      "noSchedule": "Jours non définis"
+    },
+    "status": {
+      "DRAFT": "Brouillon",
+      "PUBLISHED": "Publiée",
+      "ARCHIVED": "Archivée"
+    },
+    "filters": {
+      "status": "Filtrer par statut",
+      "all": "Tous les statuts"
+    },
+    "empty": {
+      "title": "Aucune émission trouvée",
+      "description": "Créez votre première émission pour commencer à organiser votre programmation.",
+      "filtered": "Aucune émission ne correspond à votre recherche ou à ce filtre."
+    },
+    "form": {
+      "createTitle": "Créer une émission",
+      "createDescription": "Renseignez les informations de votre nouvelle émission.",
+      "editTitle": "Modifier l'émission",
+      "editDescription": "Mettez à jour les informations et les horaires de diffusion."
+    },
+    "placeholders": {
+      "title": "Ex. : La matinale",
+      "host": "Nom de l'animateur",
+      "description": "Présentez le contenu de cette émission..."
+    },
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "short": {
+        "monday": "Lun.",
+        "tuesday": "Mar.",
+        "wednesday": "Mer.",
+        "thursday": "Jeu.",
+        "friday": "Ven.",
+        "saturday": "Sam.",
+        "sunday": "Dim."
+      }
+    },
+    "pagination": {
+      "summary": "Page {page} sur {totalPages} · {total} émission(s)",
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "validation": {
+      "titleMin": "Le titre doit contenir au moins 3 caractères.",
+      "titleMax": "Le titre ne doit pas dépasser 180 caractères.",
+      "timesDifferent": "Les heures de début et de fin doivent être différentes.",
+      "imageUrl": "L'image doit être une URL HTTP ou HTTPS valide."
+    },
+    "messages": {
+      "created": "Émission créée avec succès.",
+      "updated": "Émission mise à jour avec succès.",
+      "deleted": "Émission supprimée avec succès.",
+      "published": "Émission publiée avec succès.",
+      "archived": "Émission archivée avec succès.",
+      "imageUploaded": "Image importée avec succès."
+    },
+    "errors": {
+      "load": "Impossible de charger les émissions.",
+      "save": "Impossible d'enregistrer l'émission.",
+      "delete": "Impossible de supprimer cette émission.",
+      "action": "Impossible d'effectuer cette action.",
+      "upload": "Impossible d'importer l'image.",
+      "invalidImage": "Veuillez sélectionner un fichier image valide.",
+      "apiUrl": "L'URL de l'API n'est pas configurée."
+    },
+    "deleteDialog": {
+      "title": "Supprimer cette émission ?",
+      "description": "Voulez-vous vraiment supprimer « {title} » ? Cette action est irréversible."
+    },
+    "publishDialog": {
+      "title": "Publier cette émission ?",
+      "description": "L'émission « {title} » sera publiée et pourra apparaître sur la plateforme publique."
+    },
+    "archiveDialog": {
+      "title": "Archiver cette émission ?",
+      "description": "L'émission « {title} » sera archivée."
+    },
+    "breadcrumbLabel": "Fil d’Ariane",
+  "communityRadio": "Radio communautaire",
+  "title": "Les émissions de {radioName}",
+  "description": "Explorez les programmes et retrouvez les rendez-vous qui font vivre {radioName}.",
+  "showCount": "{count, plural, =0 {Aucune émission} one {# émission} other {# émissions}}",
+  "allShows": "Toutes les émissions",
+  "featuredEyebrow": "À découvrir",
+  "featured": "Les émissions à la une",
+  "featuredDescription": "Découvrez une sélection des programmes de {radioName}.",
+  "featuredCount": "{count, plural, one {# émission mise en avant} other {# émissions mises en avant}}",
+  "allShowsEyebrow": "La programmation",
+  "allShowsTitle": "Toutes les émissions",
+  "allShowsDescription": "Retrouvez les programmes proposés par cette radio.",
+  "daysNotSpecified": "Jours non précisés",
+  "schedule": "Horaires",
+  "viewShow": "Découvrir l’émission",
+  "emptyTitle": "Aucune émission pour le moment",
+  "emptyDescription": "Cette radio n’a pas encore publié d’émissions. Revenez bientôt découvrir sa programmation.",
+  "paginationLabel": "Pagination des émissions",
+  "page": "Page",
+  "of": "sur",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "footerTagline": "Les voix des communautés africaines.",
+  "discoverShows": "Découvrir les émissions",
+   "breadcrumbLabel": "Fil d’Ariane des émissions",
+    "communityRadio": "Radio communautaire",
+    "title": "Les émissions de {radioName}",
+    "description": "Découvrez les programmes, les animateurs et les horaires de diffusion de {radioName}. Retrouvez les émissions de votre radio sur AfriWave.",
+    "showCount": "{count, plural, =0 {Aucune émission} one {# émission} other {# émissions}}",
+    "allShows": "Toutes les émissions",
+    "sectionEyebrow": "Nos programmes",
+    "allShowsTitle": "Toutes les émissions",
+    "allShowsDescription": "Explorez les programmes proposés par {radioName}.",
+    "showBadge": "Émission",
+    "host": "Animateur",
+    "timezone": "Fuseau horaire",
+    "broadcastDays": "Jours de diffusion",
+    "discoverShow": "Découvrir l’émission",
+    "coverAlt": "Illustration de l’émission {title}",
+    "radioLogoAlt": "Logo de {radioName}",
+    "emptyTitle": "Aucune émission disponible",
+    "emptyDescription": "Aucune émission de {radioName} n’est disponible pour le moment. Revenez bientôt pour découvrir ses programmes.",
+    "paginationLabel": "Pagination des émissions",
+    "page": "Page",
+    "of": "sur",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "footerTagline": "Les radios communautaires et leurs programmes, réunis sur AfriWave.",
+    "discoverAllShows": "Découvrir toutes les émissions",
+    "days": {
+      "sunday": "Dimanche",
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi"
+  },
+    "RadioPodcasts": {
+    "title": "Podcasts",
+    "description": "Gérez les podcasts et les contenus audio de votre radio.",
+    "stats": {
+      "total": "Podcasts au total",
+      "currentPage": "Podcasts sur cette page"
+    },
+    "list": {
+      "title": "Bibliothèque de podcasts",
+      "description": "Retrouvez et gérez vos contenus audio.",
+      "search": "Rechercher un podcast...",
+      "filter": "Filtrer par statut",
+      "empty": "Aucun podcast trouvé",
+      "emptyDescription": "Créez votre premier podcast pour commencer.",
+      "noDescription": "Aucune description"
+    },
+    "status": {
+      "all": "Tous les statuts",
+      "draft": "Brouillon",
+      "published": "Publié",
+      "archived": "Archivé"
+    },
+    "actions": {
+      "create": "Nouveau podcast",
+      "edit": "Modifier",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "publish": "Publier",
+      "archive": "Archiver",
+      "delete": "Supprimer",
+      "play": "Écouter le fichier audio",
+      "chooseAudio": "Choisir un fichier audio",
+      "chooseImage": "Choisir une couverture",
+      "removeAudio": "Retirer le fichier audio"
+    },
+    "fields": {
+      "title": "Titre",
+      "slug": "Slug",
+      "slugPlaceholder": "mon-podcast",
+      "description": "Description",
+      "duration": "Durée en secondes",
+      "durationPlaceholder": "Ex. : 1800",
+      "durationUnit": "secondes",
+      "audio": "Fichier audio",
+      "coverImage": "Image de couverture",
+      "coverPreview": "Aperçu de la couverture"
+    },
+    "form": {
+      "createTitle": "Créer un podcast",
+      "editTitle": "Modifier le podcast",
+      "description": "Renseignez les informations du podcast et sélectionnez ses fichiers.",
+      "audioRequired": "Un fichier audio est obligatoire pour créer un podcast.",
+      "coverRequiredForPublish": "Une image de couverture est obligatoire pour publier.",
+      "filesNeedBackendSupport": "Les fichiers n'ont pas été remplacés : cette opération doit être activée côté serveur."
+    },
+    "pagination": {
+      "page": "Page {page} sur {totalPages}",
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "confirm": {
+      "publishTitle": "Publier ce podcast ?",
+      "publishDescription": "Voulez-vous publier « {title} » ? Il sera visible publiquement.",
+      "archiveTitle": "Archiver ce podcast ?",
+      "archiveDescription": "Le podcast « {title} » sera archivé.",
+      "deleteTitle": "Supprimer ce podcast ?",
+      "deleteDescription": "La suppression de « {title} » est définitive."
+    },
+    "messages": {
+      "created": "Podcast créé avec succès.",
+      "updated": "Podcast modifié avec succès.",
+      "published": "Podcast publié avec succès.",
+      "archived": "Podcast archivé avec succès.",
+      "deleted": "Podcast supprimé avec succès."
+    },
+    "errors": {
+      "load": "Impossible de charger les podcasts.",
+      "save": "Impossible d'enregistrer le podcast.",
+      "action": "Impossible d'effectuer cette action.",
+      "titleRequired": "Le titre doit contenir au moins 3 caractères.",
+      "audioRequired": "Veuillez sélectionner un fichier audio.",
+      "invalidAudio": "Veuillez sélectionner un fichier audio valide.",
+      "invalidImage": "Veuillez sélectionner une image valide."
+    }
+  },
+  "RadioPodcasts": {
+    "title": "Podcasts",
+    "description": "Manage your radio's podcasts and audio content.",
+    "stats": {
+      "total": "Total podcasts",
+      "currentPage": "Podcasts on this page"
+    },
+    "list": {
+      "title": "Podcast library",
+      "description": "Find and manage your audio content.",
+      "search": "Search podcasts...",
+      "filter": "Filter by status",
+      "empty": "No podcasts found",
+      "emptyDescription": "Create your first podcast to get started.",
+      "noDescription": "No description"
+    },
+    "status": {
+      "all": "All statuses",
+      "draft": "Draft",
+      "published": "Published",
+      "archived": "Archived"
+    },
+    "actions": {
+      "create": "New podcast",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "publish": "Publish",
+      "archive": "Archive",
+      "delete": "Delete",
+      "play": "Play audio file",
+      "chooseAudio": "Choose audio file",
+      "chooseImage": "Choose cover image",
+      "removeAudio": "Remove audio file"
+    },
+    "fields": {
+      "title": "Title",
+      "slug": "Slug",
+      "slugPlaceholder": "my-podcast",
+      "description": "Description",
+      "duration": "Duration in seconds",
+      "durationPlaceholder": "E.g. 1800",
+      "durationUnit": "seconds",
+      "audio": "Audio file",
+      "coverImage": "Cover image",
+      "coverPreview": "Cover preview"
+    },
+    "form": {
+      "createTitle": "Create podcast",
+      "editTitle": "Edit podcast",
+      "description": "Enter the podcast details and select its files.",
+      "audioRequired": "An audio file is required to create a podcast.",
+      "coverRequiredForPublish": "A cover image is required before publishing.",
+      "filesNeedBackendSupport": "Files were not replaced. This operation must be enabled on the server."
+    },
+    "pagination": {
+      "page": "Page {page} of {totalPages}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "confirm": {
+      "publishTitle": "Publish this podcast?",
+      "publishDescription": "Do you want to publish “{title}”? It will become publicly visible.",
+      "archiveTitle": "Archive this podcast?",
+      "archiveDescription": "The podcast “{title}” will be archived.",
+      "deleteTitle": "Delete this podcast?",
+      "deleteDescription": "Deleting “{title}” is permanent."
+    },
+    "messages": {
+      "created": "Podcast created successfully.",
+      "updated": "Podcast updated successfully.",
+      "published": "Podcast published successfully.",
+      "archived": "Podcast archived successfully.",
+      "deleted": "Podcast deleted successfully."
+    },
+    "errors": {
+      "load": "Unable to load podcasts.",
+      "save": "Unable to save the podcast.",
+      "action": "Unable to complete this action.",
+      "titleRequired": "The title must contain at least 3 characters.",
+      "audioRequired": "Please select an audio file.",
+      "invalidAudio": "Please select a valid audio file.",
+      "invalidImage": "Please select a valid image."
+    }
+  },
+    "RadioPodcasts": {
+    "title": "Podcasts",
+    "description": "Gérez les podcasts et les contenus audio de votre radio.",
+    "stats": {
+      "total": "Podcasts au total",
+      "currentPage": "Podcasts sur cette page"
+    },
+    "list": {
+      "title": "Bibliothèque de podcasts",
+      "description": "Retrouvez et gérez vos contenus audio.",
+      "search": "Rechercher un podcast...",
+      "filter": "Filtrer par statut",
+      "empty": "Aucun podcast trouvé",
+      "emptyDescription": "Créez votre premier podcast pour commencer.",
+      "noDescription": "Aucune description"
+    },
+    "status": {
+      "all": "Tous les statuts",
+      "draft": "Brouillon",
+      "published": "Publié",
+      "archived": "Archivé"
+    },
+    "actions": {
+      "create": "Nouveau podcast",
+      "edit": "Modifier",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "publish": "Publier",
+      "archive": "Archiver",
+      "delete": "Supprimer",
+      "play": "Écouter le fichier audio",
+      "chooseAudio": "Choisir un fichier audio",
+      "chooseImage": "Choisir une couverture",
+      "removeAudio": "Retirer le fichier audio"
+    },
+    "fields": {
+      "title": "Titre",
+      "slug": "Slug",
+      "slugPlaceholder": "mon-podcast",
+      "description": "Description",
+      "duration": "Durée en secondes",
+      "durationPlaceholder": "Ex. : 1800",
+      "durationUnit": "secondes",
+      "audio": "Fichier audio",
+      "coverImage": "Image de couverture",
+      "coverPreview": "Aperçu de la couverture"
+    },
+    "form": {
+      "createTitle": "Créer un podcast",
+      "editTitle": "Modifier le podcast",
+      "description": "Renseignez les informations du podcast et sélectionnez ses fichiers.",
+      "audioRequired": "Un fichier audio est obligatoire pour créer un podcast.",
+      "coverRequiredForPublish": "Une image de couverture est obligatoire pour publier.",
+      "filesNeedBackendSupport": "Les fichiers n'ont pas été remplacés : cette opération doit être activée côté serveur."
+    },
+    "pagination": {
+      "page": "Page {page} sur {totalPages}",
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "confirm": {
+      "publishTitle": "Publier ce podcast ?",
+      "publishDescription": "Voulez-vous publier « {title} » ? Il sera visible publiquement.",
+      "archiveTitle": "Archiver ce podcast ?",
+      "archiveDescription": "Le podcast « {title} » sera archivé.",
+      "deleteTitle": "Supprimer ce podcast ?",
+      "deleteDescription": "La suppression de « {title} » est définitive."
+    },
+    "messages": {
+      "created": "Podcast créé avec succès.",
+      "updated": "Podcast modifié avec succès.",
+      "published": "Podcast publié avec succès.",
+      "archived": "Podcast archivé avec succès.",
+      "deleted": "Podcast supprimé avec succès."
+    },
+    "errors": {
+      "load": "Impossible de charger les podcasts.",
+      "save": "Impossible d'enregistrer le podcast.",
+      "action": "Impossible d'effectuer cette action.",
+      "titleRequired": "Le titre doit contenir au moins 3 caractères.",
+      "audioRequired": "Veuillez sélectionner un fichier audio.",
+      "invalidAudio": "Veuillez sélectionner un fichier audio valide.",
+      "invalidImage": "Veuillez sélectionner une image valide."
+    }
+  },
+  "AcceptInvitation": {
+    "loading": "Vérification de votre invitation…",
+    "badge": "Invitation à rejoindre une équipe",
+    "title": "Rejoignez une radio sur AfriWave",
+    "description": "Vérifiez les informations ci-dessous et acceptez votre invitation.",
+    "radio": "Radio",
+    "role": "Rôle attribué",
+    "email": "Adresse e-mail invitée",
+    "emailNotice": "Cette invitation est associée à cette adresse e-mail.",
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "password": "Mot de passe",
+      "passwordHint": "Utilisez au moins 8 caractères.",
+      "confirmPassword": "Confirmer le mot de passe"
+    },
+    "actions": {
+      "createAccount": "Créer mon compte et accepter",
+      "acceptWithAccount": "J'ai déjà un compte"
+    },
+    "existingAccount": "Vous possédez déjà un compte AfriWave ?",
+    "or": "ou",
+    "securityNotice": "Le token est vérifié par le serveur. Ne partagez jamais votre lien d'invitation.",
+    "retry": "Réessayer",
+    "success": {
+      "title": "Invitation acceptée !",
+      "description": "Vous avez rejoint {radio} avec le rôle {role}.",
+      "login": "Continuer vers la connexion"
+    },
+    "errors": {
+      "title": "Impossible de poursuivre",
+      "missingToken": "Le lien d'invitation ne contient aucun token.",
+      "invalid": "Cette invitation est invalide ou introuvable.",
+      "network": "Impossible de contacter le serveur. Vérifiez votre connexion.",
+      "generic": "Une erreur est survenue. Veuillez réessayer.",
+      "passwordLength": "Le mot de passe doit contenir au moins 8 caractères.",
+      "passwordMismatch": "Les deux mots de passe ne correspondent pas.",
+      "INVITATION_NOT_FOUND": "Cette invitation est introuvable ou invalide.",
+      "INVITATION_EXPIRED": "Cette invitation a expiré. Demandez un nouveau lien.",
+      "INVITATION_ALREADY_PROCESSED": "Cette invitation a déjà été traitée.",
+      "INVITATION_EMAIL_MISMATCH": "Connectez-vous avec le compte associé à cette invitation.",
+      "USER_ALREADY_MEMBER": "Vous êtes déjà membre de cette radio.",
+      "EXISTING_ACCOUNT_LOGIN_REQUIRED": "Un compte existe déjà pour cette adresse. Connectez-vous pour accepter l'invitation.",
+      "AUTHENTICATION_REQUIRED": "Connectez-vous pour accepter cette invitation."
+    }
+  },
+  "AcceptInvitation": {
+    "loading": "Chargement de votre invitation...",
+    "badge": "Invitation à rejoindre une radio",
+    "title": "Rejoignez l'équipe",
+    "description": "Vous avez été invité à rejoindre cet espace radio sur AfriWave. Vérifiez les informations ci-dessous pour continuer.",
+    "radio": "Station de radio",
+    "role": "Rôle attribué",
+    "email": "Adresse e-mail",
+    "emailNotice": "Cette adresse est liée à votre invitation et ne peut pas être modifiée.",
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "password": "Mot de passe",
+      "passwordHint": "Utilisez au moins 8 caractères.",
+      "confirmPassword": "Confirmer le mot de passe"
+    },
+    "actions": {
+      "createAccount": "Créer mon compte et rejoindre",
+      "acceptWithAccount": "Accepter avec mon compte existant",
+      "backHome": "Retour à l'accueil"
+    },
+    "existingAccount": {
+      "title": "Vous avez déjà un compte ?",
+      "description": "Connectez-vous avec le compte associé à cette adresse e-mail pour rejoindre l'équipe de la radio.",
+      "loginNotice": "Vous serez redirigé vers la connexion si vous n'êtes pas déjà authentifié."
+    },
+    "or": "ou",
+    "securityNotice": "Votre invitation est personnelle. Connectez-vous avec l'adresse e-mail qui l'a reçue pour rejoindre cette radio.",
+    "retry": "Réessayer",
+    "footer": "AfriWave — Les voix de nos communautés.",
+    "success": {
+      "badge": "Invitation confirmée",
+      "title": "Invitation acceptée !",
+      "description": "Vous avez rejoint {radio} avec le rôle {role}.",
+      "login": "Continuer vers la connexion"
+    },
+    "errors": {
+      "title": "Impossible de traiter l'invitation",
+      "invalidTitle": "Invitation indisponible",
+      "invalid": "Cette invitation est invalide ou indisponible.",
+      "generic": "Une erreur est survenue. Veuillez réessayer.",
+      "network": "Impossible de contacter le serveur. Vérifiez votre connexion.",
+      "missingToken": "Le lien d'invitation ne contient aucun jeton.",
+      "passwordLength": "Le mot de passe doit contenir au moins 8 caractères.",
+      "passwordMismatch": "Les deux mots de passe ne correspondent pas.",
+      "INVITATION_NOT_FOUND": "Cette invitation n'existe pas ou son lien est invalide.",
+      "INVITATION_EXPIRED": "Cette invitation a expiré. Demandez une nouvelle invitation à l'administrateur de la radio.",
+      "INVITATION_ALREADY_PROCESSED": "Cette invitation a déjà été traitée.",
+      "INVITATION_EMAIL_MISMATCH": "Vous devez vous connecter avec l'adresse e-mail qui a reçu l'invitation.",
+      "USER_ALREADY_MEMBER": "Vous êtes déjà membre de cette radio.",
+      "EXISTING_ACCOUNT_LOGIN_REQUIRED": "Un compte existe déjà avec cette adresse. Connectez-vous pour accepter l'invitation.",
+      "AUTHENTICATION_REQUIRED": "Connectez-vous pour continuer."
+    }
+  },
+  "LoadingScreen": {
+    "brand": "AfriWave",
+    "title": "Votre univers radio se prépare",
+    "description": "Nous préparons votre espace. Encore un instant…",
+    "progressLabel": "Chargement en cours",
+    "tagline": "L’information au rythme de vos communautés."
+  },
+  "NotFound": {
+    "brand": "AfriWave",
+    "homeAriaLabel": "Retour à l’accueil AfriWave",
+    "status": "Fréquence introuvable",
+    "title": "Cette page a changé de fréquence.",
+    "description": "La page que vous recherchez n’existe pas ou n’est plus disponible. Revenons ensemble vers les bonnes informations.",
+    "homeButton": "Retour à l’accueil",
+    "backButton": "Page précédente",
+    "tagline": "L’information au rythme de vos communautés."
+  },
+  "RadioActualites": {
+    "breadcrumbLabel": "Fil d’Ariane",
+    "communityRadio": "Radio communautaire",
+    "title": "Actualités de {radioName}",
+    "publications": "publications",
+    "allNews": "Toutes les actualités",
+    "featuredEyebrow": "À ne pas manquer",
+    "featured": "À la une",
+    "featuredDescription": "Les dernières nouvelles de {radioName}.",
+    "recentArticlesCount": "{count, plural, =0 {Aucun article récent} one {# article récent} other {# articles récents}}",
+    "allArticlesEyebrow": "Explorez nos contenus",
+    "allArticles": "Toutes les publications",
+    "allArticlesDescription": "Retrouvez l'ensemble des articles publiés par cette radio.",
+    "readArticle": "Lire l’article",
+    "emptyTitle": "Aucune publication pour le moment",
+    "emptyDescription": "Les nouvelles publications de cette radio apparaîtront ici.",
+    "paginationLabel": "Pagination des articles",
+    "page": "Page",
+    "of": "sur",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "footerTagline": "Les voix des communautés, leurs actualités.",
+    "discoverNews": "Découvrir les actualités"
+  },
+   "PodcastPage": {
+    "title": "Les podcasts",
+    "description": "Retrouvez les podcasts des radios communautaires et écoutez les émissions qui vous intéressent.",
+    "badge": "À écouter",
+    "heading": "Explorez nos podcasts",
+    "subtitle": "Des voix, des histoires et des émissions à découvrir auprès des radios communautaires.",
+    "searchPlaceholder": "Rechercher un podcast...",
+    "allPodcasts": "Tous les podcasts",
+    "results": "{count} podcast(s) trouvé(s)",
+    "emptyTitle": "Aucun podcast disponible",
+    "emptyDescription": "Les podcasts publiés par les radios communautaires apparaîtront ici.",
+    "noResultsTitle": "Aucun résultat",
+    "noResultsDescription": "Essayez un autre terme de recherche.",
+    "listen": "Écouter",
+    "readMore": "Découvrir le podcast",
+    "by": "Par",
+    "radio": "Radio",
+    "publishedOn": "Publié le",
+    "duration": "Durée",
+    "minutes": "min",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page {page} sur {totalPages}",
+    "loading": "Chargement des podcasts...",
+    "errorTitle": "Impossible de charger les podcasts",
+    "errorDescription": "Une erreur est survenue lors du chargement des podcasts. Veuillez réessayer.",
+    "retry": "Réessayer",
+    "backToHome": "Retour à l'accueil"
+  },
+  "PodcastDetailPage": {
+    "backToPodcasts": "Retour aux podcasts",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbPodcasts": "Podcasts",
+    "badge": "Podcast",
+    "listenNow": "Écouter maintenant",
+    "audioNotSupported": "Votre navigateur ne prend pas en charge la lecture audio.",
+    "descriptionTitle": "À propos de cet épisode",
+    "radioTitle": "À propos de la radio",
+    "radioLabel": "Radio communautaire",
+    "publishedOn": "Publié le",
+    "duration": "Durée",
+    "minutes": "min",
+    "shareTitle": "Vous aimez ce podcast ?",
+    "shareDescription": "Découvrez d'autres contenus publiés par les radios communautaires sur AfriWave.",
+    "discoverRadio": "Découvrir la radio",
+    "morePodcasts": "Découvrir d'autres podcasts",
+    "notFoundTitle": "Podcast introuvable",
+    "notFoundDescription": "Ce podcast n'existe pas, n'est plus disponible ou n'a pas été publié.",
+    "backToList": "Voir tous les podcasts",
+    "loading": "Chargement du podcast...",
+    "errorTitle": "Impossible de charger ce podcast",
+    "errorDescription": "Une erreur est survenue lors du chargement de ce podcast. Veuillez réessayer.",
+    "retry": "Réessayer",
+    "home": "Accueil"
+  },
+  "ShowDetail": {
+    "home": "Accueil",
+    "shows": "Émissions",
+    "communityRadio": "ÉMISSION DE RADIO COMMUNAUTAIRE",
+    "about": "À propos de cette émission",
+    "host": "Animateur",
+    "schedule": "Horaires de diffusion",
+    "days": "Jours de diffusion",
+    "timezone": "Fuseau horaire",
+    "relatedRadio": "À propos de la radio",
+    "viewRadio": "Découvrir la radio",
+    "back": "Retour aux émissions",
+    "noImage": "Illustration de l’émission",
+    "notFound": "Émission introuvable",
+    "intro": "Découvrez les émissions, les animateurs et les programmes des radios communautaires sur AfriWave.",
+    "daysOfWeek": [
+      "Dimanche",
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi"
+    ]
+  }
+  
+},
+"Radios": {
+"title": "Radios communautaires",
+"description": "Découvrez les radios communautaires africaines, leurs programmes et leurs voix sur AfriWave.",
+"heading": "Les radios de nos communautés",
+"intro": "Découvrez les stations qui informent, rassemblent et font vivre les communautés au quotidien.",
+"previous": "Précédent",
+"next": "Suivant",
+"page": "Page",
+"pagination": "Pagination des radios",
+"eyebrow": "Les voix de nos communautés",
+"featuredLabel": "Découvrez nos radios",
+"radiosCount": "radios sur cette page",
+"frequency": "Fréquence",
+"discover": "Découvrir la radio",
+"unknownCity": "Localisation non renseignée",
+"website": "Site web",
+"listen": "Écouter",
+"emptyTitle": "Aucune radio disponible",
+"emptyDescription": "Revenez prochainement pour découvrir les radios référencées sur AfriWave.",
+"location": "Localisation",
+"country": "Pays",
+"city": "Ville",
+"address": "Adresse",
+"phone": "Téléphone",
+"email": "E-mail",
+"followUs": "Suivez-nous",
+"visitWebsite": "Visiter le site web",
+"listenLive": "Écouter en direct",
+"latestNews": "Dernières actualités",
+"latestShows": "Dernières émissions",
+"latestPodcasts": "Derniers podcasts",
+"backToRadios": "Retour aux radios",
+"radioNotFound": "Radio introuvable",
+"radioNotFoundDescription": "Cette radio n'existe pas ou n'est plus disponible sur AfriWave.",
+"loadingError": "Impossible de charger les radios pour le moment.",
+"retry": "Réessayer"
+},
+"LoadingScreen": {
+    "brand": "AfriWave",
+    "title": "Votre univers radio se prépare",
+    "description": "Nous préparons votre espace. Encore un instant…",
+    "progressLabel": "Chargement en cours",
+    "tagline": "L’information au rythme de vos communautés."
+  },
+   "PublicSearch": {
+    "title": "Explorez les médias africains",
+    "description": "Retrouvez les articles, émissions et podcasts publiés par les radios de notre réseau.",
+    "placeholder": "Que souhaitez-vous découvrir ?",
+    "search": "Rechercher",
+    "clear": "Effacer la recherche",
+    "filterType": "Filtrer par type de contenu",
+    "allTypes": "Tous les contenus",
+    "radioPlaceholder": "Slug de la radio (facultatif)",
+    "filter": "Appliquer",
+    "resultsEyebrow": "Votre recherche",
+    "discoverEyebrow": "À découvrir",
+    "resultsTitle": "Résultats de recherche",
+    "discoverTitle": "Dernières publications",
+    "resultCount": "{count, plural, =0 {Aucun résultat} one {# résultat trouvé} other {# résultats trouvés}}",
+    "article": "Article",
+    "show": "Émission",
+    "podcast": "Podcast",
+    "reset": "Réinitialiser les filtres",
+    "error": "Impossible de charger les résultats. Vérifiez votre connexion et réessayez.",
+    "retry": "Réessayer",
+    "emptyTitle": "Aucun résultat trouvé",
+    "emptyDescription": "Essayez d'autres mots-clés ou modifiez vos filtres pour découvrir davantage de contenus.",
+    "minutes": "min",
+    "presentedBy": "Par",
+    "readMore": "Découvrir le contenu",
+    "pagination": "Pagination des résultats",
+    "previous": "Page précédente",
+    "next": "Page suivante",
+    "pageLabel": "Page {page} sur {totalPages}"
+  },
+  "SiteHeader": {
+    "tagline": "Les voix de nos communautés",
+    "navigation": {
+      "label": "Navigation principale",
+      "home": "Accueil"
+    },
+    "theme": {
+      "toggle": "Changer de thème",
+      "light": "Passer au thème clair",
+      "dark": "Passer au thème sombre"
+    },
+    "language": {
+      "label": "Changer de langue"
+    },
+    "mobile": {
+      "open": "Ouvrir le menu"
+    },
+    "preferences": "Préférences"
+  },
+  "RadioSettings": {
+    "title": "Paramètres",
+    "description": "Gérez les informations de votre radio et votre profil utilisateur.",
+    "tabs": {
+      "radio": "Ma radio",
+      "profile": "Mon profil"
+    },
+    "radio": {
+      "title": "Informations de la radio",
+      "description": "Mettez à jour les informations publiques et les coordonnées de votre radio.",
+      "name": "Nom de la radio",
+      "radioDescription": "Description",
+      "logo": "URL du logo",
+      "coverImage": "URL de l’image de couverture",
+      "frequency": "Fréquence",
+      "city": "Ville",
+      "country": "Pays",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "E-mail de contact",
+      "website": "Site web",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "twitter": "X / Twitter",
+      "streamUrl": "URL du flux audio",
+      "save": "Enregistrer les modifications",
+      "saving": "Enregistrement en cours...",
+      "loadError": "Impossible de charger les informations de la radio.",
+      "saveSuccess": "Les informations de la radio ont été mises à jour.",
+      "saveError": "Impossible de mettre à jour la radio.",
+      "chooseImage": "Choisir une image",
+  "noImage": "Aucune image sélectionnée.",
+  "removeImage": "Retirer l’image",
+  "imageHelp": "Image acceptée, 5 Mo maximum.",
+  "imageUploading": "Envoi de l’image en cours...",
+  "imageUploadSuccess": "Image envoyée avec succès.",
+  "imageUploadError": "Impossible d’envoyer l’image.",
+  "imageInvalidType": "Le fichier sélectionné doit être une image.",
+  "imageTooLarge": "L’image ne doit pas dépasser 5 Mo.",
+  "saveSuccess": "Paramètres enregistrés avec succès",
+    "saveSuccessDescription": "Les informations de votre radio ont bien été mises à jour.",
+    "saveError": "Échec de l'enregistrement",
+    "saveErrorDescription": "Une erreur est survenue pendant la sauvegarde."
+    },
+    "profile": {
+      "title": "Profil utilisateur",
+      "description": "Gérez les informations de votre compte.",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "save": "Enregistrer le profil",
+      "saving": "Enregistrement en cours...",
+      "loadError": "Impossible de charger votre profil.",
+      "saveSuccess": "Votre profil a été mis à jour.",
+      "saveError": "Impossible de mettre à jour votre profil.",
+         "saveSuccess": "Profil mis à jour avec succès",
+    "saveSuccessDescription": "Vos informations personnelles ont bien été enregistrées.",
+    "saveError": "Échec de la mise à jour du profil",
+    "saveErrorDescription": "Une erreur est survenue pendant l'enregistrement.",
+    "validationError": "Veuillez renseigner votre prénom, votre nom et votre adresse e-mail."
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+      "invalidUrl": "Veuillez saisir une URL valide.",
+      "invalidRadioId": "L’identifiant de la radio est invalide."
+    },
+    "common": {
+      "loading": "Chargement...",
+      "cancel": "Annuler",
+      "retry": "Réessayer",
+      "errorTitle": "Une erreur est survenue",
+      "unsavedChanges": "Vous avez des modifications non enregistrées.",
+      "noRadio": "Aucune radio valide n’est associée à votre compte."
+    }
+  },
+  "RadioDetail": {
+"breadcrumbLabel": "Fil d’Ariane",
+"backToRadios": "Toutes les radios",
+"noDescription": "Découvrez les rubriques, les actualités et les émissions de cette radio sur AfriWave.",
+"logoAlt": "Logo de {name}",
+"radioLabel": "Radio communautaire",
+"categoryCount": "{count, plural, =0 {Aucune catégorie} one {# catégorie} other {# catégories}}",
+"categoriesEyebrow": "Explorez la radio",
+"categoriesTitle": "Rubriques et catégories",
+"categoriesDescription": "Découvrez les différentes rubriques proposées par {name}.",
+"categoryFallback": "Découvrez les contenus et les informations de cette rubrique.",
+"emptyCategoriesTitle": "Aucune rubrique disponible",
+"emptyCategoriesDescription": "Les rubriques de cette radio apparaîtront ici dès qu’elles seront disponibles.",
+"newsEyebrow": "Restez informé",
+"newsTitle": "Actualités de la radio",
+"newsDescription": "Retrouvez les dernières actualités et informations publiées par {name}.",
+"podcastsEyebrow": "À écouter",
+"podcastsTitle": "Émissions et podcasts",
+"podcastsDescription": "Découvrez les émissions et les contenus audio proposés par {name}.",
+"contentComingSoon": "Bientôt disponible",
+"footerTagline": "Les radios communautaires et leurs contenus, réunis sur une même plateforme.",
+"discoverRadios": "Découvrir les radios",
+"exploreCategory": "explorer",
+ "backToRadios": "Toutes les radios",
+    "stationLabel": "Station de radio",
+    "coverAlt": "Couverture de {name}",
+    "aboutTitle": "À propos de cette radio",
+    "noDescription": "Aucune description n’est disponible pour cette station.",
+    "listenTitle": "Écouter en direct",
+    "listenDescription": "Écoutez le flux audio de cette station.",
+    "audioUnsupported": "Votre navigateur ne prend pas en charge la lecture audio.",
+    "informationTitle": "Informations",
+    "frequencyLabel": "Fréquence",
+    "locationLabel": "Localisation",
+    "websiteLabel": "Site officiel",
+    "officialWebsite": "Visiter le site",
+    "retry": "Réessayer",
+    "errors": {
+      "title": "Impossible de charger la radio",
+      "loadFailed": "Une erreur est survenue lors du chargement.",
+      "notFoundTitle": "Radio introuvable",
+      "notFoundDescription": "Cette station n’est pas disponible ou n’existe plus."
+    }
+},
+"RadioCategoryArticles": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbRadios": "Radios",
+    "breadcrumbNews": "Actualités",
+    "backToRadio": "Retour à la radio",
+    "sectionLabel": "Rubrique",
+    "articlesHeading": "Articles de la rubrique",
+    "article": "article",
+    "articles": "articles",
+    "publishedOn": "Publié le",
+    "readArticle": "Lire l'article",
+    "emptyTitle": "Aucun article pour le moment",
+    "emptyDescription": "Cette rubrique ne contient pas encore d'articles publiés. Revenez bientôt pour découvrir les actualités.",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page",
+    "of": "sur",
+    "radioLocation": "Localisation non renseignée",
+    "radioDescription": "Découvrez les actualités publiées par cette radio communautaire.",
+    "notFoundTitle": "Rubrique introuvable",
+    "notFoundDescription": "Cette rubrique est introuvable ou n'est pas disponible.",
+    "loadError": "Impossible de charger les articles de cette rubrique.",
+    "allCategories": "Toutes les rubriques",
+    "latestNews": "Dernières actualités",
+    "metaTitle": "{category} — {radio}",
+    "metaDescription": "Consultez les articles de la rubrique {category} publiés par {radio} sur AfriWave."
+  },
+"RadioPodcasts": {
+  "breadcrumbLabel": "Fil d’Ariane des podcasts",
+  "communityRadio": "Radio communautaire",
+  "title": "Podcasts de {radioName}",
+  "managerTitle": "Gestion des podcasts",
+  "description": "Gérez les podcasts publiés par votre radio communautaire.",
+  "podcastCount": "{count, plural, =0 {Aucun podcast} one {# podcast} other {# podcasts}}",
+  "allPodcasts": "Tous les podcasts",
+  "featuredEyebrow": "À découvrir",
+  "featured": "Podcasts à la une",
+  "featuredDescription": "Découvrez les contenus audio publiés par {radioName}.",
+  "featuredCount": "{count, plural, =0 {Aucun podcast à la une} one {# podcast à la une} other {# podcasts à la une}}",
+  "listenPodcast": "Écouter le podcast",
+  "durationUnknown": "Durée indisponible",
+  "allPodcastsEyebrow": "Notre collection audio",
+  "allPodcastsTitle": "Tous les podcasts",
+  "allPodcastsDescription": "Explorez les podcasts publiés par cette radio communautaire.",
+  "emptyTitle": "Aucun podcast pour le moment",
+  "emptyDescription": "Cette radio n’a encore publié aucun podcast. Revenez bientôt pour découvrir ses contenus audio.",
+  "paginationLabel": "Pagination des podcasts",
+  "page": "Page",
+  "of": "sur",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "footerTagline": "La voix des communautés africaines.",
+  "discoverPodcasts": "Découvrir les podcasts",
+
+  "stats": {
+    "total": "Nombre total de podcasts",
+    "currentPage": "Podcasts affichés sur cette page"
+  },
+
+  "list": {
+    "title": "Liste des podcasts",
+    "description": "Recherchez, filtrez et gérez les podcasts de votre radio.",
+    "search": "Rechercher un podcast...",
+    "filter": "Filtrer par statut"
+  },
+
+  "status": {
+    "all": "Tous les statuts",
+    "draft": "Brouillons",
+    "published": "Publiés",
+    "archived": "Archivés"
+  },
+
+  "actions": {
+    "cancel": "Annuler",
+    "archive": "Archiver",
+    "delete": "Supprimer",
+    "play": "Écouter le podcast",
+    "edit": "Modifier",
+    "publish": "Publier",
+    "create": "Créer un podcast",
+    "save": "Enregistrer les modifications",
+    "chooseAudio": "Choisir un fichier audio",
+    "chooseImage": "Choisir une image de couverture"
+  },
+
+  "confirm": {
+    "publishTitle": "Publier le podcast",
+    "publishDescription": "Voulez-vous vraiment publier « {title} » ?",
+    "archiveTitle": "Archiver le podcast",
+    "archiveDescription": "Voulez-vous vraiment archiver « {title} » ?",
+    "deleteTitle": "Supprimer le podcast",
+    "deleteDescription": "Voulez-vous vraiment supprimer définitivement « {title} » ? Cette action est irréversible."
+  },
+
+  "pagination": {
+    "page": "Page {page} sur {totalPages}",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+
+  "form": {
+    "createTitle": "Créer un podcast",
+    "editTitle": "Modifier le podcast",
+    "description": "Renseignez les informations du podcast ci-dessous.",
+    "audioRequired": "Un fichier audio est obligatoire pour créer un podcast.",
+    "coverRequiredForPublish": "Une image de couverture est obligatoire pour publier le podcast."
+  },
+
+  "fields": {
+    "title": "Titre",
+    "description": "Description",
+    "duration": "Durée",
+    "durationPlaceholder": "Ex. : 15:30",
+    "audio": "Fichier audio",
+    "coverImage": "Image de couverture"
+  }
+},
+"RadioTeam": {
+    "title": "Gestion de l’équipe",
+    "description": "Gérez les membres et les accès à votre espace radio.",
+    "stats": {
+      "members": "Membres",
+      "administrators": "Administrateurs"
+    },
+    "actions": {
+      "refresh": "Actualiser",
+      "invite": "Inviter un membre",
+      "sending": "Envoi en cours...",
+      "sendInvitation": "Envoyer l’invitation",
+      "changeRole": "Modifier le rôle",
+      "remove": "Retirer",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    },
+    "invite": {
+      "title": "Inviter un collaborateur",
+      "description": "Une invitation sera envoyée par e-mail avec un lien sécurisé.",
+      "email": "Adresse e-mail",
+      "role": "Rôle",
+      "chooseRole": "Choisir un rôle"
+    },
+    "list": {
+      "title": "Membres de la radio",
+      "description": "Les collaborateurs ayant accès à cet espace.",
+      "search": "Rechercher un membre..."
+    },
+    "table": {
+      "member": "Membre",
+      "role": "Rôle",
+      "status": "Statut",
+      "actions": "Actions",
+      "you": "Vous",
+      "unknownRole": "Rôle inconnu",
+      "protected": "Compte protégé"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "emailUnverified": "E-mail non vérifié"
+    },
+    "states": {
+      "loading": "Chargement des membres...",
+      "empty": "Aucun membre trouvé",
+      "emptyDescription": "Invitez un collaborateur pour commencer.",
+      "loadingRoles": "Chargement des rôles...",
+"noRoles": "Aucun rôle disponible",
+"noRolesDescription": "Aucun rôle attribuable n'a été trouvé. Veuillez réessayer plus tard."
+    },
+    "roleDialog": {
+      "title": "Modifier le rôle du membre"
+    },
+    "removeDialog": {
+      "title": "Retirer ce membre ?",
+      "description": "Voulez-vous retirer {email} de cette radio ? Cette action ne peut pas être annulée."
+    },
+    "messages": {
+      "invitationSent": "Invitation envoyée par e-mail.",
+      "roleUpdated": "Rôle mis à jour.",
+      "memberRemoved": "Membre retiré de la radio."
+    },
+    "errors": {
+      "load": "Impossible de charger les membres.",
+      "inviteFields": "Renseignez l’e-mail et le rôle.",
+      "invite": "Impossible d’envoyer l’invitation.",
+      "updateRole": "Impossible de modifier le rôle.",
+      "remove": "Impossible de retirer ce membre.",
+      "loadRoles": "Impossible de charger les rôles."
+    }
+  },
+   "RadioMedia": {
+    "title": "Médias",
+    "description": "Gérez les émissions, podcasts et articles de votre radio.",
+    "refresh": "Actualiser",
+    "active": "Sélectionné",
+    "listTitle": "Bibliothèque média",
+    "count": "{count, plural, =0 {Aucun média} one {# média} other {# médias}}",
+    "searchPlaceholder": "Rechercher par titre ou slug...",
+    "filterStatus": "Filtrer par statut",
+    "categories": {
+      "shows": "Émissions",
+      "podcasts": "Podcasts",
+      "articles": "Articles"
+    },
+    "types": {
+      "show": "Émission",
+      "podcast": "Podcast",
+      "article": "Article"
+    },
+    "statuses": {
+      "all": "Tous les statuts",
+      "published": "Publié",
+      "draft": "Brouillon",
+      "archived": "Archivé",
+      "pending": "En attente",
+      "rejected": "Rejeté",
+      "pending_review": "en attente"
+
+    },
+    "table": {
+      "media": "Contenu",
+      "type": "Type",
+      "status": "Statut",
+      "createdAt": "Date de création",
+      "actions": "Actions",
+      "listen": "Écouter"
+    },
+    "empty": {
+      "title": "Aucun média trouvé",
+      "description": "Essayez un autre filtre ou une autre recherche."
+    },
+    "errors": {
+      "load": "Impossible de charger les médias."
+    },
+    "retry": "Réessayer",
+    "pagination": {
+      "page": "Page {page} sur {totalPages}",
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  }
+}

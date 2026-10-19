@@ -1,0 +1,355 @@
+.afriwave-404 {
+  --afriwave-orange: #f47b16;
+  --afriwave-green: #087c3c;
+  --afriwave-text: #202720;
+  --afriwave-muted: #737b75;
+
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  min-height: 100vh;
+  min-height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 56px 24px;
+  background: #fff;
+  color: var(--afriwave-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.afriwave-404 *,
+.afriwave-404 *::before,
+.afriwave-404 *::after {
+  box-sizing: border-box;
+}
+
+.afriwave-404__glow {
+  position: absolute;
+  z-index: -1;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.afriwave-404__glow--orange {
+  top: -150px;
+  right: -100px;
+  background: var(--afriwave-orange);
+}
+
+.afriwave-404__glow--green {
+  bottom: -180px;
+  left: -100px;
+  background: var(--afriwave-green);
+}
+
+.afriwave-404__content {
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  animation: afriwave-404-appear 0.7s ease both;
+}
+
+.afriwave-404__brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  transition: transform 0.25s ease;
+}
+
+.afriwave-404__brand:hover {
+  transform: translateY(-3px);
+}
+
+.afriwave-404__logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.afriwave-404__status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  color: var(--afriwave-green);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+}
+
+.afriwave-404__status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--afriwave-orange);
+  box-shadow: 0 0 0 4px rgb(244 123 22 / 12%);
+}
+
+.afriwave-404__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 0;
+  font-size: clamp(100px, 22vw, 190px);
+  font-weight: 900;
+  line-height: 0.95;
+  letter-spacing: -0.09em;
+}
+
+.afriwave-404__number span {
+  display: inline-block;
+  animation: afriwave-404-float 3s ease-in-out infinite;
+}
+
+.afriwave-404__number span:nth-child(1) {
+  color: var(--afriwave-orange);
+}
+
+.afriwave-404__number span:nth-child(2) {
+  color: var(--afriwave-green);
+  animation-delay: 0.2s;
+}
+
+.afriwave-404__number span:nth-child(3) {
+  color: var(--afriwave-orange);
+  animation-delay: 0.4s;
+}
+
+.afriwave-404__separator {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.afriwave-404__separator span {
+  width: 64px;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    var(--afriwave-orange),
+    var(--afriwave-green)
+  );
+}
+
+.afriwave-404__title {
+  margin: 0;
+  color: var(--afriwave-text);
+  font-size: clamp(25px, 5vw, 38px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.afriwave-404__description {
+  max-width: 490px;
+  margin: 18px auto 0;
+  color: var(--afriwave-muted);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.afriwave-404__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.afriwave-404__button {
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.afriwave-404__button:hover {
+  transform: translateY(-2px);
+}
+
+.afriwave-404__button:focus-visible,
+.afriwave-404__brand:focus-visible {
+  outline: 3px solid rgb(8 124 60 / 35%);
+  outline-offset: 4px;
+}
+
+.afriwave-404__button svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.afriwave-404__button--primary {
+  background: var(--afriwave-orange);
+  color: #fff;
+  box-shadow: 0 8px 20px rgb(244 123 22 / 20%);
+}
+
+.afriwave-404__button--primary:hover {
+  background: #df6909;
+  box-shadow: 0 10px 24px rgb(244 123 22 / 28%);
+}
+
+.afriwave-404__arrow {
+  font-size: 20px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.afriwave-404__button--primary:hover .afriwave-404__arrow {
+  transform: translateX(3px);
+}
+
+.afriwave-404__button--secondary {
+  border-color: #e2e8e3;
+  background: #fff;
+  color: #354139;
+}
+
+.afriwave-404__button--secondary:hover {
+  border-color: var(--afriwave-green);
+  color: var(--afriwave-green);
+}
+
+.afriwave-404__notice {
+  margin: 18px 0 0;
+  color: var(--afriwave-muted);
+  font-size: 13px;
+}
+
+.afriwave-404__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 58px;
+  color: #8a938c;
+  font-size: 12px;
+}
+
+.afriwave-404__footer-line {
+  width: 38px;
+  height: 1px;
+  margin-bottom: 6px;
+  background: #dce4dd;
+}
+
+.afriwave-404__footer p {
+  margin: 0;
+  color: var(--afriwave-green);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.afriwave-404__footer span:last-child {
+  line-height: 1.6;
+}
+
+@keyframes afriwave-404-appear {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes afriwave-404-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 520px) {
+  .afriwave-404 {
+    padding: 36px 20px;
+  }
+
+  .afriwave-404__logo {
+    width: 82px;
+    height: 82px;
+  }
+
+  .afriwave-404__brand {
+    margin-bottom: 24px;
+  }
+
+  .afriwave-404__number {
+    gap: 8px;
+  }
+
+  .afriwave-404__separator {
+    margin: 24px 0;
+  }
+
+  .afriwave-404__description {
+    font-size: 15px;
+  }
+
+  .afriwave-404__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .afriwave-404__button {
+    width: 100%;
+  }
+
+  .afriwave-404__footer {
+    margin-top: 42px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .afriwave-404__content,
+  .afriwave-404__number span {
+    animation: none;
+  }
+
+  .afriwave-404__brand,
+  .afriwave-404__button,
+  .afriwave-404__arrow {
+    transition: none;
+  }
+}
