@@ -62,28 +62,32 @@ type PaginationParams = {
   limit?: number;
 };
 
-function getPublicSiteBaseUrl(): string {
-  const configuredUrl =
-    process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
-    process.env.NEXT_PUBLIC_APP_URL?.trim();
+function getPublicApiBaseUrl(): string {
+  const configuredUrl = process.env.NEXT_PUBLIC_API_URL?.trim();
 
   if (!configuredUrl) {
     throw new Error(
-      "URL du site manquante : configure NEXT_PUBLIC_SITE_URL dans .env.local.",
+      "URL de l'API manquante : configure API_BASE_URL dans l'environnement serveur.",
     );
   }
 
   try {
-    return new URL(configuredUrl).toString();
+    const url = new URL(configuredUrl);
+
+    if (!["http:", "https:"].includes(url.protocol)) {
+      throw new Error("Protocole invalide");
+    }
+
+    return url.toString().replace(/\/+$/, "");
   } catch {
     throw new Error(
-      `NEXT_PUBLIC_SITE_URL n'est pas une URL valide : ${configuredUrl}`,
+      `API_BASE_URL n'est pas une URL valide : ${configuredUrl}`,
     );
   }
 }
 
 async function fetchPublicApi<T>(path: string): Promise<T> {
-  const baseUrl = getPublicSiteBaseUrl();
+  const baseUrl =  getPublicApiBaseUrl();
   
   const url = new URL(path, baseUrl);
 console.info("[PublicShows] Appel API :", {
