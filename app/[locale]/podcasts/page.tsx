@@ -158,9 +158,12 @@ export default async function PodcastsPage({
   const podcasts: GlobalPublicPodcast[] = result.podcasts;
   const pagination = result.pagination;
 
+const logoSrc =
+  "/WhatsApp_Image_2026-10-10_at_20.27.03-removebg-preview.png";
+
   return (
     <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <header className="sticky top-0 z-50 mb-6 border-b border-border/70 bg-background/90 backdrop-blur-xl">
+     <header className="sticky top-0 z-50 mb-6 border-b border-border/70 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex min-h-16 w-full max-w-7xl items-center justify-between gap-2 px-3 py-2 sm:min-h-[76px] sm:gap-4 sm:px-6 lg:px-8">
           <Link
             href={`/${lang}`}
@@ -168,7 +171,7 @@ export default async function PodcastsPage({
             className="flex min-w-0 shrink-0 items-center"
           >
             <Image
-              src="/WhatsApp_Image_2026-10-10_at_20.27.03-removebg-preview.png"
+              src={logoSrc}
               alt="Logo AfriWave"
               width={150}
               height={52}
@@ -178,7 +181,7 @@ export default async function PodcastsPage({
           </Link>
 
           <nav
-            aria-label="Navigation principale"
+            aria-label={lang === "fr" ? "Navigation principale" : "Main navigation"}
             className="hidden items-center gap-5 xl:flex"
           >
             <Link
@@ -187,24 +190,29 @@ export default async function PodcastsPage({
             >
               {t("Navigation.home")}
             </Link>
+
             <Link
               href={`/${lang}/actualites`}
               className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
             >
               {t("Navigation.news")}
             </Link>
+
             <Link
               href={`/${lang}/radios`}
+           
               className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
             >
               {t("Navigation.radios")}
             </Link>
+
             <Link
               href={`/${lang}/emissions`}
               className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
             >
               {t("Navigation.shows")}
             </Link>
+
             <Link
               href={`/${lang}/podcasts`}
               aria-current="page"
@@ -223,7 +231,7 @@ export default async function PodcastsPage({
               aria-label={t("Navigation.search")}
               className="inline-flex size-9 items-center justify-center rounded-xl border border-border hover:bg-muted sm:h-10 sm:w-auto sm:gap-2 sm:px-3"
             >
-              <Search className="size-4" />
+              <Search className="size-4" aria-hidden="true" />
               <span className="hidden text-sm font-semibold sm:inline">
                 {t("Navigation.search")}
               </span>
@@ -231,31 +239,26 @@ export default async function PodcastsPage({
 
             <Link
               href={`/${lang}/login`}
-              aria-label={t("Navigation.login")}
-              className="inline-flex min-h-9 items-center justify-center gap-1.5 rounded-xl border border-border px-2.5 text-xs font-semibold hover:bg-muted sm:min-h-10 sm:gap-2 sm:px-3 sm:text-sm"
+              className="hidden min-h-10 items-center justify-center rounded-xl border border-border px-3 text-sm font-semibold hover:bg-muted sm:inline-flex"
             >
-              <LogIn className="size-4 shrink-0" />
-              <span className="hidden sm:inline">
-                {t("Navigation.login")}
-              </span>
-              <span className="sm:hidden">
-                {t("Navigation.loginShort")}
-              </span>
+              {t("Navigation.login")}
             </Link>
 
             <Link
               href={`/${lang}/register`}
               className="inline-flex min-h-10 items-center justify-center gap-2 rounded-xl bg-primary px-3 text-sm font-bold text-primary-foreground hover:opacity-90 lg:px-4"
             >
-              <Radio className="size-4 shrink-0" />
-              <span>{t("Navigation.registerRadio")}</span>
+              <Radio className="size-4 shrink-0" aria-hidden="true" />
+              <span className="hidden sm:inline">
+                {t("Navigation.registerRadio")}
+              </span>
             </Link>
           </div>
         </div>
 
         <div className="border-t border-border/60 px-3 py-2 md:hidden">
           <nav
-            aria-label="Navigation mobile"
+            aria-label={lang === "fr" ? "Navigation mobile" : "Mobile navigation"}
             className="flex items-center gap-4 overflow-x-auto"
           >
             <Link
@@ -264,21 +267,24 @@ export default async function PodcastsPage({
             >
               {t("Navigation.news")}
             </Link>
+
             <Link
               href={`/${lang}/radios`}
-              className="shrink-0 text-xs text-muted-foreground"
+              aria-current="page"
+              className="shrink-0 text-xs text-muted-foreground "
             >
               {t("Navigation.radios")}
             </Link>
+
             <Link
               href={`/${lang}/emissions`}
-              className="shrink-0 text-xs text-muted-foreground"
+              className="shrink-0 text-xs text-muted-foreground "
             >
               {t("Navigation.shows")}
             </Link>
+
             <Link
               href={`/${lang}/podcasts`}
-              aria-current="page"
               className="shrink-0 rounded-full bg-primary/10 px-3 py-1.5 text-xs font-semibold text-primary"
             >
               {t("Navigation.podcasts")}

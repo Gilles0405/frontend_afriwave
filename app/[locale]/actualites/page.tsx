@@ -135,158 +135,139 @@ export default async function ActualitesPage({
 
     const articles: GlobalPublicArticle[] = result.articles;
     const pagination = result.pagination;
-
+     
+const logoSrc =
+  "/WhatsApp_Image_2026-10-10_at_20.27.03-removebg-preview.png";
     return (
         <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-           <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur-xl mb-6">
-                   <div className="mx-auto flex min-h-16 w-full max-w-7xl items-center justify-between gap-2 px-3 py-2 sm:min-h-[76px] sm:gap-4 sm:px-6 lg:px-8">
-                     {/* Logo */}
-                     <Link
-                       href="/"
-                       aria-label="AfriWave — Accueil"
-                       className="flex min-w-0 shrink-0 items-center"
-                     >
-                       <Image
-                         src="/WhatsApp_Image_2026-10-10_at_20.27.03-removebg-preview.png"
-                         alt="Logo AfriWave"
-                         width={150}
-                         height={52}
-                         priority
-                         className="h-9 w-auto object-contain sm:h-11"
-                       />
-                     </Link>
-           
-                     {/* Navigation desktop */}
-                     <nav
-                       aria-label="Navigation principale"
-                       className="hidden items-center gap-5 xl:flex"
-                     >
-                       <Link
-                         href="/"
-                         className="whitespace-nowrap text-sm text-muted-foreground transition-colors hover:text-foreground"
-                       >
-                         {t("Navigation.home")}
-                       </Link>
-                       <Link
-                         href="/actualites"
-                         aria-current="page"
-                         className="whitespace-nowrap rounded-full bg-primary/10 px-3 py-2 text-sm font-semibold text-primary transition-colors"
-                       >
-                         {t("Navigation.news")}
-                       </Link>
-                       <Link
-                         href="/radios"
-                         className="whitespace-nowrap text-sm text-muted-foreground transition-colors hover:text-foreground"
-                       >
-                         {t("Navigation.radios")}
-                       </Link>
-                       <Link
-                         href="/emissions"
-                         className="whitespace-nowrap text-sm text-muted-foreground transition-colors hover:text-foreground"
-                       >
-                         {t("Navigation.shows")}
-                       </Link>
-                       <Link
-                         href="/podcasts"
-                         className="whitespace-nowrap text-sm text-muted-foreground transition-colors hover:text-foreground"
-                       >
-                         {t("Navigation.podcasts")}
-                       </Link>
-                     </nav>
-           
-                     {/* Actions */}
-                     <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
-                       <LanguageSwitcher />
-                       <ThemeToggle />
-           
-                       {/* Recherche : icône seule sur mobile */}
-                       <Link
-                         href="/recherche"
-                         aria-label={t("Navigation.search")}
-                         className="inline-flex size-9 shrink-0 items-center justify-center rounded-xl border border-border transition-colors hover:bg-muted sm:h-10 sm:w-auto sm:gap-2 sm:px-3"
-                       >
-                         <Search className="size-4" />
-                         <span className="hidden text-sm font-semibold sm:inline">
-                           {t("Navigation.search")}
-                         </span>
-                       </Link>
-           
-                       {/* Connexion */}
-                       <Link
-                         href="/login"
-                         aria-label={t("Navigation.login")}
-                         className="inline-flex min-h-9 shrink-0 items-center justify-center gap-1.5 rounded-xl border border-border px-2.5 text-xs font-semibold transition-colors hover:bg-muted sm:min-h-10 sm:gap-2 sm:px-3 sm:text-sm"
-                       >
-                         <LogIn className="size-4 shrink-0" />
-                         <span className="hidden sm:inline">
-                           {t("Navigation.login")}
-                         </span>
-                         <span className="sm:hidden">
-                           {t("Navigation.loginShort")}
-                         </span>
-                       </Link>
-           
-                       {/* Inscription radio */}
-                       <Link
-                         href="/register"
-                         className="inline-flex min-h-10 shrink-0 items-center justify-center gap-2 rounded-xl bg-primary px-3 text-sm font-bold text-primary-foreground transition-opacity hover:opacity-90 lg:px-4"
-                       >
-                         <Radio className="size-4 shrink-0" />
-                         <span>{t("Navigation.registerRadio")}</span>
-                       </Link>
-                     </div>
-                   </div>
-           
-                   {/* Accès secondaire sur mobile et tablette */}
-                   <div className="border-t border-border/60 px-3 py-2 md:hidden">
-                     <div className="mx-auto flex max-w-7xl items-center justify-between gap-3">
-                       <nav
-                         aria-label="Navigation mobile"
-                         className="flex min-w-0 items-center gap-4 overflow-x-auto"
-                       >
-                         <Link
-                           href="/"
-                           className="shrink-0 text-xs text-muted-foreground transition-colors hover:text-foreground"
-                         >
-                           {t("Navigation.home")}
-                         </Link>
-                         <Link
-                           href="/actualites"
-                           aria-current="page"
-                           className="shrink-0 rounded-full bg-primary/10 px-3 py-1.5 text-xs font-semibold text-primary"
-                         >
-                           {t("Navigation.news")}
-                         </Link>
-                         <Link
-                           href="/radios"
-                           className="shrink-0 text-xs text-muted-foreground"
-                         >
-                           {t("Navigation.radios")}
-                         </Link>
-                         <Link
-                           href="/emissions"
-                           className="shrink-0 text-xs text-muted-foreground"
-                         >
-                           {t("Navigation.shows")}
-                         </Link>
-                         <Link
-                           href="/podcasts"
-                           className="shrink-0 text-xs text-muted-foreground"
-                         >
-                           {t("Navigation.podcasts")}
-                         </Link>
-                       </nav>
-           
-                       <Link
-                         href="/register"
-                         className="inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-lg bg-primary px-2.5 text-xs font-bold text-primary-foreground transition-opacity hover:opacity-90"
-                       >
-                         <Radio className="size-3.5" />
-                         <span>{t("Navigation.registerRadio")}</span>
-                       </Link>
-                     </div>
-                   </div>
-                 </header>
+           <header className="sticky top-0 z-50 mb-6 border-b border-border/70 bg-background/90 backdrop-blur-xl">
+        <div className="mx-auto flex min-h-16 w-full max-w-7xl items-center justify-between gap-2 px-3 py-2 sm:min-h-[76px] sm:gap-4 sm:px-6 lg:px-8">
+          <Link
+            href={`/${lang}`}
+            aria-label="AfriWave — Accueil"
+            className="flex min-w-0 shrink-0 items-center"
+          >
+            <Image
+              src={logoSrc}
+              alt="Logo AfriWave"
+              width={150}
+              height={52}
+              priority
+              className="h-9 w-auto object-contain sm:h-11"
+            />
+          </Link>
+
+          <nav
+            aria-label={lang === "fr" ? "Navigation principale" : "Main navigation"}
+            className="hidden items-center gap-5 xl:flex"
+          >
+            <Link
+              href={`/${lang}`}
+              className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
+            >
+              {t("Navigation.home")}
+            </Link>
+
+            <Link
+              href={`/${lang}/actualites`}
+              aria-current="page"
+               className="whitespace-nowrap rounded-full bg-primary/10 px-3 py-2 text-sm font-semibold text-primary"
+            >
+              {t("Navigation.news")}
+            </Link>
+
+            <Link
+              href={`/${lang}/radios`}
+               className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
+            >
+              {t("Navigation.radios")}
+            </Link>
+
+            <Link
+              href={`/${lang}/emissions`}
+              className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
+            >
+              {t("Navigation.shows")}
+            </Link>
+
+            <Link
+              href={`/${lang}/podcasts`}
+              className="whitespace-nowrap text-sm text-muted-foreground hover:text-foreground"
+            >
+              {t("Navigation.podcasts")}
+            </Link>
+          </nav>
+
+          <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
+            <LanguageSwitcher />
+            <ThemeToggle />
+
+            <Link
+              href={`/${lang}/recherche`}
+              aria-label={t("Navigation.search")}
+              className="inline-flex size-9 items-center justify-center rounded-xl border border-border hover:bg-muted sm:h-10 sm:w-auto sm:gap-2 sm:px-3"
+            >
+              <Search className="size-4" aria-hidden="true" />
+              <span className="hidden text-sm font-semibold sm:inline">
+                {t("Navigation.search")}
+              </span>
+            </Link>
+
+            <Link
+              href={`/${lang}/login`}
+              className="hidden min-h-10 items-center justify-center rounded-xl border border-border px-3 text-sm font-semibold hover:bg-muted sm:inline-flex"
+            >
+              {t("Navigation.login")}
+            </Link>
+
+            <Link
+              href={`/${lang}/register`}
+              className="inline-flex min-h-10 items-center justify-center gap-2 rounded-xl bg-primary px-3 text-sm font-bold text-primary-foreground hover:opacity-90 lg:px-4"
+            >
+              <Radio className="size-4 shrink-0" aria-hidden="true" />
+              <span className="hidden sm:inline">
+                {t("Navigation.registerRadio")}
+              </span>
+            </Link>
+          </div>
+        </div>
+
+        <div className="border-t border-border/60 px-3 py-2 md:hidden">
+          <nav
+            aria-label={lang === "fr" ? "Navigation mobile" : "Mobile navigation"}
+            className="flex items-center gap-4 overflow-x-auto"
+          >
+            <Link
+              href={`/${lang}/actualites`}
+               aria-current="page"
+              className="shrink-0 rounded-full bg-primary/10 px-3 py-1.5 text-xs font-semibold text-primary"
+            >
+              {t("Navigation.news")}
+            </Link>
+
+            <Link
+              href={`/${lang}/radios`}
+              className="shrink-0 text-xs text-muted-foreground"
+            >
+              {t("Navigation.radios")}
+            </Link>
+
+            <Link
+              href={`/${lang}/emissions`}
+              className="shrink-0 text-xs text-muted-foreground"
+            >
+              {t("Navigation.shows")}
+            </Link>
+
+            <Link
+              href={`/${lang}/podcasts`}
+              className="shrink-0 text-xs text-muted-foreground"
+            >
+              {t("Navigation.podcasts")}
+            </Link>
+          </nav>
+        </div>
+      </header>
 
             <section
                 aria-labelledby="news-page-title"
